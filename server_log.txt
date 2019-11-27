@@ -11853,3 +11853,4443 @@ v0.3.7-R2, (C)2005-2015 SA-MP Team
 [18:41:28] ---------------------------------------
 
 [18:41:28] Number of vehicle models: 0
+[19:10:38] [connection] 192.168.0.1:53286 requests connection cookie.
+[19:10:39] [connection] incoming connection: 192.168.0.1:53286 id: 0
+[19:10:40] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:16:40] filterscripts = ""  (string)
+[19:16:40] 
+[19:16:40] Server Plugins
+[19:16:40] --------------
+[19:16:40]  Loading plugin: sscanf
+[19:16:40] 
+
+[19:16:40]  ===============================
+
+[19:16:40]       sscanf plugin loaded.     
+
+[19:16:40]          Version:  2.8.2        
+
+[19:16:40]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:16:40]  ===============================
+
+[19:16:40]   Loaded.
+[19:16:40]  Loaded 1 plugins.
+
+[19:16:40] 
+[19:16:40] Filterscripts
+[19:16:40] ---------------
+[19:16:40]   Loaded 0 filterscripts.
+
+[19:16:40]  
+[19:16:40]  
+[19:16:40]  
+[19:16:40]  ======================================= 
+[19:16:40]  |                                     | 
+[19:16:40]  |        YSI version 4.00.0001        | 
+[19:16:40]  |        By Alex "Y_Less" Cole        | 
+[19:16:40]  |                                     | 
+[19:16:40]  ======================================= 
+[19:16:40]  
+[19:16:40] 
+---------------------------------------
+[19:16:40] Running DOGFIGHT - By Anteino
+
+[19:16:40] ---------------------------------------
+
+[19:16:40] Number of vehicle models: 0
+[19:16:59] [connection] 192.168.0.1:50499 requests connection cookie.
+[19:17:00] [connection] incoming connection: 192.168.0.1:50499 id: 0
+[19:17:00] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:18:37] filterscripts = ""  (string)
+[19:18:37] 
+[19:18:37] Server Plugins
+[19:18:37] --------------
+[19:18:37]  Loading plugin: sscanf
+[19:18:37] 
+
+[19:18:37]  ===============================
+
+[19:18:37]       sscanf plugin loaded.     
+
+[19:18:37]          Version:  2.8.2        
+
+[19:18:37]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:18:37]  ===============================
+
+[19:18:37]   Loaded.
+[19:18:37]  Loaded 1 plugins.
+
+[19:18:37] 
+[19:18:37] Filterscripts
+[19:18:37] ---------------
+[19:18:37]   Loaded 0 filterscripts.
+
+[19:18:37]  
+[19:18:37]  
+[19:18:37]  
+[19:18:37]  ======================================= 
+[19:18:37]  |                                     | 
+[19:18:37]  |        YSI version 4.00.0001        | 
+[19:18:37]  |        By Alex "Y_Less" Cole        | 
+[19:18:37]  |                                     | 
+[19:18:37]  ======================================= 
+[19:18:37]  
+[19:18:37] 
+---------------------------------------
+[19:18:37] Running DOGFIGHT - By Anteino
+
+[19:18:37] ---------------------------------------
+
+[19:18:37] Number of vehicle models: 0
+[19:18:39] [connection] 192.168.0.1:49461 requests connection cookie.
+[19:18:40] [connection] incoming connection: 192.168.0.1:49461 id: 0
+[19:18:40] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:20:11] filterscripts = ""  (string)
+[19:20:11] 
+[19:20:11] Server Plugins
+[19:20:11] --------------
+[19:20:11]  Loading plugin: sscanf
+[19:20:11] 
+
+[19:20:11]  ===============================
+
+[19:20:11]       sscanf plugin loaded.     
+
+[19:20:11]          Version:  2.8.2        
+
+[19:20:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:20:11]  ===============================
+
+[19:20:11]   Loaded.
+[19:20:11]  Loaded 1 plugins.
+
+[19:20:11] 
+[19:20:11] Filterscripts
+[19:20:11] ---------------
+[19:20:11]   Loaded 0 filterscripts.
+
+[19:20:11]  
+[19:20:11]  
+[19:20:11]  
+[19:20:11]  ======================================= 
+[19:20:11]  |                                     | 
+[19:20:11]  |        YSI version 4.00.0001        | 
+[19:20:11]  |        By Alex "Y_Less" Cole        | 
+[19:20:11]  |                                     | 
+[19:20:11]  ======================================= 
+[19:20:11]  
+[19:20:11] 
+---------------------------------------
+[19:20:11] Running DOGFIGHT - By Anteino
+
+[19:20:11] ---------------------------------------
+
+[19:20:11] Number of vehicle models: 0
+[19:20:13] [connection] 192.168.0.1:65534 requests connection cookie.
+[19:20:14] [connection] incoming connection: 192.168.0.1:65534 id: 0
+[19:20:14] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:23:00] filterscripts = ""  (string)
+[19:23:00] 
+[19:23:00] Server Plugins
+[19:23:00] --------------
+[19:23:00]  Loading plugin: sscanf
+[19:23:00] 
+
+[19:23:00]  ===============================
+
+[19:23:00]       sscanf plugin loaded.     
+
+[19:23:00]          Version:  2.8.2        
+
+[19:23:00]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:23:00]  ===============================
+
+[19:23:00]   Loaded.
+[19:23:00]  Loaded 1 plugins.
+
+[19:23:00] 
+[19:23:00] Filterscripts
+[19:23:00] ---------------
+[19:23:00]   Loaded 0 filterscripts.
+
+[19:23:00]  
+[19:23:00]  
+[19:23:00]  
+[19:23:00]  ======================================= 
+[19:23:00]  |                                     | 
+[19:23:00]  |        YSI version 4.00.0001        | 
+[19:23:00]  |        By Alex "Y_Less" Cole        | 
+[19:23:00]  |                                     | 
+[19:23:00]  ======================================= 
+[19:23:00]  
+[19:23:01] 
+---------------------------------------
+[19:23:01] Running DOGFIGHT - By Anteino
+
+[19:23:01] ---------------------------------------
+
+[19:23:01] Number of vehicle models: 0
+[19:23:03] [connection] 192.168.0.1:50422 requests connection cookie.
+[19:23:04] [connection] incoming connection: 192.168.0.1:50422 id: 0
+[19:23:04] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:25:00] filterscripts = ""  (string)
+[19:25:00] 
+[19:25:00] Server Plugins
+[19:25:00] --------------
+[19:25:00]  Loading plugin: sscanf
+[19:25:00] 
+
+[19:25:00]  ===============================
+
+[19:25:00]       sscanf plugin loaded.     
+
+[19:25:00]          Version:  2.8.2        
+
+[19:25:00]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:25:00]  ===============================
+
+[19:25:00]   Loaded.
+[19:25:00]  Loaded 1 plugins.
+
+[19:25:00] 
+[19:25:00] Filterscripts
+[19:25:00] ---------------
+[19:25:00]   Loaded 0 filterscripts.
+
+[19:25:00]  
+[19:25:00]  
+[19:25:00]  
+[19:25:00]  ======================================= 
+[19:25:00]  |                                     | 
+[19:25:00]  |        YSI version 4.00.0001        | 
+[19:25:00]  |        By Alex "Y_Less" Cole        | 
+[19:25:00]  |                                     | 
+[19:25:00]  ======================================= 
+[19:25:00]  
+[19:25:00] 
+---------------------------------------
+[19:25:00] Running DOGFIGHT - By Anteino
+
+[19:25:00] ---------------------------------------
+
+[19:25:00] Number of vehicle models: 0
+[19:25:01] [connection] 192.168.0.1:65004 requests connection cookie.
+[19:25:02] [connection] incoming connection: 192.168.0.1:65004 id: 0
+[19:25:03] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:26:22] filterscripts = ""  (string)
+[19:26:22] 
+[19:26:22] Server Plugins
+[19:26:22] --------------
+[19:26:22]  Loading plugin: sscanf
+[19:26:22] 
+
+[19:26:22]  ===============================
+
+[19:26:22]       sscanf plugin loaded.     
+
+[19:26:22]          Version:  2.8.2        
+
+[19:26:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:26:22]  ===============================
+
+[19:26:22]   Loaded.
+[19:26:22]  Loaded 1 plugins.
+
+[19:26:22] 
+[19:26:22] Filterscripts
+[19:26:22] ---------------
+[19:26:22]   Loaded 0 filterscripts.
+
+[19:26:22]  
+[19:26:22]  
+[19:26:22]  
+[19:26:22]  ======================================= 
+[19:26:22]  |                                     | 
+[19:26:22]  |        YSI version 4.00.0001        | 
+[19:26:22]  |        By Alex "Y_Less" Cole        | 
+[19:26:22]  |                                     | 
+[19:26:22]  ======================================= 
+[19:26:22]  
+[19:26:22] 
+---------------------------------------
+[19:26:22] Running DOGFIGHT - By Anteino
+
+[19:26:22] ---------------------------------------
+
+[19:26:22] Number of vehicle models: 0
+[19:26:24] [connection] 192.168.0.1:65027 requests connection cookie.
+[19:26:25] [connection] incoming connection: 192.168.0.1:65027 id: 0
+[19:26:25] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:27:31] filterscripts = ""  (string)
+[19:27:31] 
+[19:27:31] Server Plugins
+[19:27:31] --------------
+[19:27:31]  Loading plugin: sscanf
+[19:27:31] 
+
+[19:27:31]  ===============================
+
+[19:27:31]       sscanf plugin loaded.     
+
+[19:27:31]          Version:  2.8.2        
+
+[19:27:31]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:27:31]  ===============================
+
+[19:27:31]   Loaded.
+[19:27:31]  Loaded 1 plugins.
+
+[19:27:31] 
+[19:27:31] Filterscripts
+[19:27:31] ---------------
+[19:27:31]   Loaded 0 filterscripts.
+
+[19:27:31]  
+[19:27:31]  
+[19:27:31]  
+[19:27:31]  ======================================= 
+[19:27:31]  |                                     | 
+[19:27:31]  |        YSI version 4.00.0001        | 
+[19:27:31]  |        By Alex "Y_Less" Cole        | 
+[19:27:31]  |                                     | 
+[19:27:31]  ======================================= 
+[19:27:31]  
+[19:27:31] 
+---------------------------------------
+[19:27:31] Running DOGFIGHT - By Anteino
+
+[19:27:31] ---------------------------------------
+
+[19:27:31] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:28:48] filterscripts = ""  (string)
+[19:28:48] 
+[19:28:48] Server Plugins
+[19:28:48] --------------
+[19:28:48]  Loading plugin: sscanf
+[19:28:48] 
+
+[19:28:48]  ===============================
+
+[19:28:48]       sscanf plugin loaded.     
+
+[19:28:48]          Version:  2.8.2        
+
+[19:28:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:28:48]  ===============================
+
+[19:28:48]   Loaded.
+[19:28:48]  Loaded 1 plugins.
+
+[19:28:48] 
+[19:28:48] Filterscripts
+[19:28:48] ---------------
+[19:28:48]   Loaded 0 filterscripts.
+
+[19:28:48]  
+[19:28:48]  
+[19:28:48]  
+[19:28:48]  ======================================= 
+[19:28:48]  |                                     | 
+[19:28:48]  |        YSI version 4.00.0001        | 
+[19:28:48]  |        By Alex "Y_Less" Cole        | 
+[19:28:48]  |                                     | 
+[19:28:48]  ======================================= 
+[19:28:48]  
+[19:28:48] 
+---------------------------------------
+[19:28:48] Running DOGFIGHT - By Anteino
+
+[19:28:48] ---------------------------------------
+
+[19:28:48] Number of vehicle models: 0
+[19:28:49] [connection] 192.168.0.1:54765 requests connection cookie.
+[19:28:50] [connection] incoming connection: 192.168.0.1:54765 id: 0
+[19:28:51] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:44:54] filterscripts = ""  (string)
+[19:44:54] 
+[19:44:54] Server Plugins
+[19:44:54] --------------
+[19:44:54]  Loading plugin: sscanf
+[19:44:54] 
+
+[19:44:54]  ===============================
+
+[19:44:54]       sscanf plugin loaded.     
+
+[19:44:54]          Version:  2.8.2        
+
+[19:44:54]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:44:54]  ===============================
+
+[19:44:54]   Loaded.
+[19:44:54]  Loaded 1 plugins.
+
+[19:44:54] 
+[19:44:54] Filterscripts
+[19:44:54] ---------------
+[19:44:54]   Loaded 0 filterscripts.
+
+[19:44:54]  
+[19:44:54]  
+[19:44:54]  
+[19:44:54]  ======================================= 
+[19:44:54]  |                                     | 
+[19:44:54]  |        YSI version 4.00.0001        | 
+[19:44:54]  |        By Alex "Y_Less" Cole        | 
+[19:44:54]  |                                     | 
+[19:44:54]  ======================================= 
+[19:44:54]  
+[19:44:55] 
+---------------------------------------
+[19:44:55] Running DOGFIGHT - By Anteino
+
+[19:44:55] ---------------------------------------
+
+[19:44:55] Number of vehicle models: 0
+[19:45:08] [connection] 192.168.0.1:60311 requests connection cookie.
+[19:45:09] [connection] incoming connection: 192.168.0.1:60311 id: 0
+[19:45:09] [join] Anteino has joined the server (0:192.168.0.1)
+[19:45:19] [connection] 192.168.0.178:61550 requests connection cookie.
+[19:45:20] [connection] incoming connection: 192.168.0.178:61550 id: 1
+[19:45:51] [connection] 192.168.0.178:50261 requests connection cookie.
+[19:45:52] [connection] incoming connection: 192.168.0.178:50261 id: 1
+[19:45:52] [join] Henkie has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:47:38] filterscripts = ""  (string)
+[19:47:38] 
+[19:47:38] Server Plugins
+[19:47:38] --------------
+[19:47:38]  Loading plugin: sscanf
+[19:47:38] 
+
+[19:47:38]  ===============================
+
+[19:47:38]       sscanf plugin loaded.     
+
+[19:47:38]          Version:  2.8.2        
+
+[19:47:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:47:38]  ===============================
+
+[19:47:38]   Loaded.
+[19:47:38]  Loaded 1 plugins.
+
+[19:47:38] 
+[19:47:38] Filterscripts
+[19:47:38] ---------------
+[19:47:38]   Loaded 0 filterscripts.
+
+[19:47:38] Script[gamemodes/dogfight.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[19:47:38] Failed to load 'gamemodes/dogfight.amx' script.
+[19:47:38] Number of vehicle models: 0
+[19:47:40] [connection] 192.168.0.178:62120 requests connection cookie.
+[19:47:41] [connection] incoming connection: 192.168.0.178:62120 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:48:18] filterscripts = ""  (string)
+[19:48:18] 
+[19:48:18] Server Plugins
+[19:48:18] --------------
+[19:48:18]  Loading plugin: sscanf
+[19:48:18] 
+
+[19:48:18]  ===============================
+
+[19:48:18]       sscanf plugin loaded.     
+
+[19:48:18]          Version:  2.8.2        
+
+[19:48:18]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:48:18]  ===============================
+
+[19:48:18]   Loaded.
+[19:48:18]  Loaded 1 plugins.
+
+[19:48:18] 
+[19:48:18] Filterscripts
+[19:48:18] ---------------
+[19:48:18]   Loaded 0 filterscripts.
+
+[19:48:18]  
+[19:48:18]  
+[19:48:18]  
+[19:48:18]  ======================================= 
+[19:48:18]  |                                     | 
+[19:48:18]  |        YSI version 4.00.0001        | 
+[19:48:18]  |        By Alex "Y_Less" Cole        | 
+[19:48:18]  |                                     | 
+[19:48:18]  ======================================= 
+[19:48:18]  
+[19:48:18] 
+---------------------------------------
+[19:48:18] Running DOGFIGHT - By Anteino
+
+[19:48:18] ---------------------------------------
+
+[19:48:18] Number of vehicle models: 0
+[19:48:18] [connection] 192.168.0.178:59893 requests connection cookie.
+[19:48:19] [connection] incoming connection: 192.168.0.178:59893 id: 0
+[19:48:19] [join] Henkie has joined the server (0:192.168.0.178)
+[19:48:55] [connection] 192.168.0.1:60600 requests connection cookie.
+[19:48:56] [connection] incoming connection: 192.168.0.1:60600 id: 1
+[19:48:57] [join] Anteino has joined the server (1:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:49:23] filterscripts = ""  (string)
+[19:49:23] 
+[19:49:23] Server Plugins
+[19:49:23] --------------
+[19:49:23]  Loading plugin: sscanf
+[19:49:23] 
+
+[19:49:23]  ===============================
+
+[19:49:23]       sscanf plugin loaded.     
+
+[19:49:23]          Version:  2.8.2        
+
+[19:49:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:49:23]  ===============================
+
+[19:49:23]   Loaded.
+[19:49:23]  Loaded 1 plugins.
+
+[19:49:23] 
+[19:49:23] Filterscripts
+[19:49:23] ---------------
+[19:49:23]   Loaded 0 filterscripts.
+
+[19:49:23]  
+[19:49:23]  
+[19:49:23]  
+[19:49:23]  ======================================= 
+[19:49:23]  |                                     | 
+[19:49:23]  |        YSI version 4.00.0001        | 
+[19:49:23]  |        By Alex "Y_Less" Cole        | 
+[19:49:23]  |                                     | 
+[19:49:23]  ======================================= 
+[19:49:23]  
+[19:49:23] 
+---------------------------------------
+[19:49:23] Running DOGFIGHT - By Anteino
+
+[19:49:23] ---------------------------------------
+
+[19:49:23] Number of vehicle models: 0
+[19:49:33] [connection] 192.168.0.178:59895 requests connection cookie.
+[19:49:34] [connection] incoming connection: 192.168.0.178:59895 id: 0
+[19:49:34] [join] Henkie has joined the server (0:192.168.0.178)
+[19:49:43] [connection] 192.168.0.1:56796 requests connection cookie.
+[19:49:44] [connection] incoming connection: 192.168.0.1:56796 id: 1
+[19:49:44] [join] Anteino has joined the server (1:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[11:27:03] filterscripts = ""  (string)
+[11:27:03] 
+[11:27:03] Server Plugins
+[11:27:03] --------------
+[11:27:03]  Loading plugin: sscanf
+[11:27:03] 
+
+[11:27:03]  ===============================
+
+[11:27:03]       sscanf plugin loaded.     
+
+[11:27:03]          Version:  2.8.2        
+
+[11:27:03]    (c) 2012 Alex "Y_Less" Cole  
+
+[11:27:03]  ===============================
+
+[11:27:03]   Loaded.
+[11:27:03]  Loaded 1 plugins.
+
+[11:27:03] 
+[11:27:03] Filterscripts
+[11:27:03] ---------------
+[11:27:03]   Loaded 0 filterscripts.
+
+[11:27:03]  
+[11:27:03]  
+[11:27:03]  
+[11:27:03]  ======================================= 
+[11:27:03]  |                                     | 
+[11:27:03]  |        YSI version 4.00.0001        | 
+[11:27:03]  |        By Alex "Y_Less" Cole        | 
+[11:27:03]  |                                     | 
+[11:27:03]  ======================================= 
+[11:27:03]  
+[11:27:03] 
+---------------------------------------
+[11:27:03] Running DOGFIGHT - By Anteino
+
+[11:27:03] ---------------------------------------
+
+[11:27:03] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:24:42] filterscripts = ""  (string)
+[13:24:42] 
+[13:24:42] Server Plugins
+[13:24:42] --------------
+[13:24:42]  Loading plugin: sscanf
+[13:24:43] 
+
+[13:24:43]  ===============================
+
+[13:24:43]       sscanf plugin loaded.     
+
+[13:24:43]          Version:  2.8.2        
+
+[13:24:43]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:24:43]  ===============================
+
+[13:24:43]   Loaded.
+[13:24:43]  Loaded 1 plugins.
+
+[13:24:43] 
+[13:24:43] Filterscripts
+[13:24:43] ---------------
+[13:24:43]   Loaded 0 filterscripts.
+
+[13:24:43]  
+[13:24:43]  
+[13:24:43]  
+[13:24:43]  ======================================= 
+[13:24:43]  |                                     | 
+[13:24:43]  |        YSI version 4.00.0001        | 
+[13:24:43]  |        By Alex "Y_Less" Cole        | 
+[13:24:43]  |                                     | 
+[13:24:43]  ======================================= 
+[13:24:43]  
+[13:24:44] 
+---------------------------------------
+[13:24:44] Running DOGFIGHT - By Anteino
+
+[13:24:44] ---------------------------------------
+
+[13:24:44] Number of vehicle models: 0
+[13:25:01] [connection] 192.168.0.1:53630 requests connection cookie.
+[13:25:02] [connection] incoming connection: 192.168.0.1:53630 id: 0
+[13:25:03] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:25:49] filterscripts = ""  (string)
+[13:25:49] 
+[13:25:49] Server Plugins
+[13:25:49] --------------
+[13:25:49]  Loading plugin: sscanf
+[13:25:49] 
+
+[13:25:49]  ===============================
+
+[13:25:49]       sscanf plugin loaded.     
+
+[13:25:49]          Version:  2.8.2        
+
+[13:25:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:25:49]  ===============================
+
+[13:25:49]   Loaded.
+[13:25:49]  Loaded 1 plugins.
+
+[13:25:49] 
+[13:25:49] Filterscripts
+[13:25:49] ---------------
+[13:25:49]   Loaded 0 filterscripts.
+
+[13:25:49]  
+[13:25:49]  
+[13:25:49]  
+[13:25:49]  ======================================= 
+[13:25:49]  |                                     | 
+[13:25:49]  |        YSI version 4.00.0001        | 
+[13:25:49]  |        By Alex "Y_Less" Cole        | 
+[13:25:49]  |                                     | 
+[13:25:49]  ======================================= 
+[13:25:49]  
+[13:25:49] 
+---------------------------------------
+[13:25:49] Running DOGFIGHT - By Anteino
+
+[13:25:49] ---------------------------------------
+
+[13:25:49] Number of vehicle models: 0
+[13:25:54] [connection] 192.168.0.1:60878 requests connection cookie.
+[13:25:55] [connection] incoming connection: 192.168.0.1:60878 id: 0
+[13:25:55] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:26:55] filterscripts = ""  (string)
+[13:26:55] 
+[13:26:55] Server Plugins
+[13:26:55] --------------
+[13:26:55]  Loading plugin: sscanf
+[13:26:55] 
+
+[13:26:55]  ===============================
+
+[13:26:55]       sscanf plugin loaded.     
+
+[13:26:55]          Version:  2.8.2        
+
+[13:26:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:26:55]  ===============================
+
+[13:26:55]   Loaded.
+[13:26:55]  Loaded 1 plugins.
+
+[13:26:55] 
+[13:26:55] Filterscripts
+[13:26:55] ---------------
+[13:26:55]   Loaded 0 filterscripts.
+
+[13:26:55]  
+[13:26:55]  
+[13:26:55]  
+[13:26:55]  ======================================= 
+[13:26:55]  |                                     | 
+[13:26:55]  |        YSI version 4.00.0001        | 
+[13:26:55]  |        By Alex "Y_Less" Cole        | 
+[13:26:55]  |                                     | 
+[13:26:55]  ======================================= 
+[13:26:55]  
+[13:26:55] 
+---------------------------------------
+[13:26:55] Running DOGFIGHT - By Anteino
+
+[13:26:55] ---------------------------------------
+
+[13:26:55] Number of vehicle models: 0
+[13:27:12] [connection] 192.168.0.1:59964 requests connection cookie.
+[13:27:13] [connection] incoming connection: 192.168.0.1:59964 id: 0
+[13:27:13] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:27:32] filterscripts = ""  (string)
+[13:27:32] 
+[13:27:32] Server Plugins
+[13:27:32] --------------
+[13:27:32]  Loading plugin: sscanf
+[13:27:32] 
+
+[13:27:32]  ===============================
+
+[13:27:32]       sscanf plugin loaded.     
+
+[13:27:32]          Version:  2.8.2        
+
+[13:27:32]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:27:32]  ===============================
+
+[13:27:32]   Loaded.
+[13:27:32]  Loaded 1 plugins.
+
+[13:27:32] 
+[13:27:32] Filterscripts
+[13:27:32] ---------------
+[13:27:32]   Loaded 0 filterscripts.
+
+[13:27:33]  
+[13:27:33]  
+[13:27:33]  
+[13:27:33]  ======================================= 
+[13:27:33]  |                                     | 
+[13:27:33]  |        YSI version 4.00.0001        | 
+[13:27:33]  |        By Alex "Y_Less" Cole        | 
+[13:27:33]  |                                     | 
+[13:27:33]  ======================================= 
+[13:27:33]  
+[13:27:33] 
+---------------------------------------
+[13:27:33] Running DOGFIGHT - By Anteino
+
+[13:27:33] ---------------------------------------
+
+[13:27:33] Number of vehicle models: 0
+[13:27:36] [connection] 192.168.0.1:56263 requests connection cookie.
+[13:27:37] [connection] incoming connection: 192.168.0.1:56263 id: 0
+[13:27:37] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:27:59] filterscripts = ""  (string)
+[13:27:59] 
+[13:27:59] Server Plugins
+[13:27:59] --------------
+[13:27:59]  Loading plugin: sscanf
+[13:27:59] 
+
+[13:27:59]  ===============================
+
+[13:27:59]       sscanf plugin loaded.     
+
+[13:27:59]          Version:  2.8.2        
+
+[13:27:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:27:59]  ===============================
+
+[13:27:59]   Loaded.
+[13:27:59]  Loaded 1 plugins.
+
+[13:27:59] 
+[13:27:59] Filterscripts
+[13:27:59] ---------------
+[13:27:59]   Loaded 0 filterscripts.
+
+[13:27:59]  
+[13:27:59]  
+[13:27:59]  
+[13:27:59]  ======================================= 
+[13:27:59]  |                                     | 
+[13:27:59]  |        YSI version 4.00.0001        | 
+[13:27:59]  |        By Alex "Y_Less" Cole        | 
+[13:27:59]  |                                     | 
+[13:27:59]  ======================================= 
+[13:27:59]  
+[13:28:00] 
+---------------------------------------
+[13:28:00] Running DOGFIGHT - By Anteino
+
+[13:28:00] ---------------------------------------
+
+[13:28:00] Number of vehicle models: 0
+[13:28:11] [connection] 192.168.0.1:61954 requests connection cookie.
+[13:28:12] [connection] incoming connection: 192.168.0.1:61954 id: 0
+[13:28:13] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[13:35:38] filterscripts = ""  (string)
+[13:35:38] 
+[13:35:38] Server Plugins
+[13:35:38] --------------
+[13:35:38]  Loading plugin: sscanf
+[13:35:38] 
+
+[13:35:38]  ===============================
+
+[13:35:38]       sscanf plugin loaded.     
+
+[13:35:38]          Version:  2.8.2        
+
+[13:35:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[13:35:38]  ===============================
+
+[13:35:38]   Loaded.
+[13:35:38]  Loaded 1 plugins.
+
+[13:35:38] 
+[13:35:38] Filterscripts
+[13:35:38] ---------------
+[13:35:38]   Loaded 0 filterscripts.
+
+[13:35:38]  
+[13:35:38]  
+[13:35:38]  
+[13:35:38]  ======================================= 
+[13:35:38]  |                                     | 
+[13:35:38]  |        YSI version 4.00.0001        | 
+[13:35:38]  |        By Alex "Y_Less" Cole        | 
+[13:35:38]  |                                     | 
+[13:35:38]  ======================================= 
+[13:35:38]  
+[13:35:39] 
+---------------------------------------
+[13:35:39] Running DOGFIGHT - By Anteino
+
+[13:35:39] ---------------------------------------
+
+[13:35:39] Number of vehicle models: 0
+[13:35:50] [connection] 192.168.0.1:53630 requests connection cookie.
+[13:35:51] [connection] incoming connection: 192.168.0.1:53630 id: 0
+[13:35:51] [join] Anteino has joined the server (0:192.168.0.1)
+[13:36:02] [part] Anteino has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:00:50] filterscripts = ""  (string)
+[17:00:50] 
+[17:00:50] Server Plugins
+[17:00:50] --------------
+[17:00:50]  Loading plugin: sscanf
+[17:00:50] 
+
+[17:00:50]  ===============================
+
+[17:00:50]       sscanf plugin loaded.     
+
+[17:00:50]          Version:  2.8.2        
+
+[17:00:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:00:50]  ===============================
+
+[17:00:50]   Loaded.
+[17:00:50]  Loaded 1 plugins.
+
+[17:00:50] 
+[17:00:50] Filterscripts
+[17:00:50] ---------------
+[17:00:50]   Loaded 0 filterscripts.
+
+[17:00:50]  
+[17:00:50]  
+[17:00:50]  
+[17:00:50]  ======================================= 
+[17:00:50]  |                                     | 
+[17:00:50]  |        YSI version 4.00.0001        | 
+[17:00:50]  |        By Alex "Y_Less" Cole        | 
+[17:00:50]  |                                     | 
+[17:00:50]  ======================================= 
+[17:00:50]  
+[17:00:50] 
+---------------------------------------
+[17:00:50] Running DOGFIGHT - By Anteino
+
+[17:00:50] ---------------------------------------
+
+[17:00:50] Number of vehicle models: 0
+[17:01:09] [connection] 192.168.0.1:62235 requests connection cookie.
+[17:01:10] [connection] incoming connection: 192.168.0.1:62235 id: 0
+[17:01:10] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:02:27] filterscripts = ""  (string)
+[17:02:27] 
+[17:02:27] Server Plugins
+[17:02:27] --------------
+[17:02:27]  Loading plugin: sscanf
+[17:02:27] 
+
+[17:02:27]  ===============================
+
+[17:02:27]       sscanf plugin loaded.     
+
+[17:02:27]          Version:  2.8.2        
+
+[17:02:27]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:02:27]  ===============================
+
+[17:02:27]   Loaded.
+[17:02:27]  Loaded 1 plugins.
+
+[17:02:27] 
+[17:02:27] Filterscripts
+[17:02:27] ---------------
+[17:02:27]   Loaded 0 filterscripts.
+
+[17:02:27]  
+[17:02:27]  
+[17:02:27]  
+[17:02:27]  ======================================= 
+[17:02:27]  |                                     | 
+[17:02:27]  |        YSI version 4.00.0001        | 
+[17:02:27]  |        By Alex "Y_Less" Cole        | 
+[17:02:27]  |                                     | 
+[17:02:27]  ======================================= 
+[17:02:27]  
+[17:02:27] 
+---------------------------------------
+[17:02:27] Running DOGFIGHT - By Anteino
+
+[17:02:27] ---------------------------------------
+
+[17:02:27] Number of vehicle models: 0
+[17:02:50] [connection] 192.168.0.1:62004 requests connection cookie.
+[17:02:51] [connection] incoming connection: 192.168.0.1:62004 id: 0
+[17:02:51] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:06:42] filterscripts = ""  (string)
+[17:06:42] 
+[17:06:42] Server Plugins
+[17:06:42] --------------
+[17:06:42]  Loading plugin: sscanf
+[17:06:42] 
+
+[17:06:42]  ===============================
+
+[17:06:42]       sscanf plugin loaded.     
+
+[17:06:42]          Version:  2.8.2        
+
+[17:06:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:06:42]  ===============================
+
+[17:06:42]   Loaded.
+[17:06:42]  Loaded 1 plugins.
+
+[17:06:43] 
+[17:06:43] Filterscripts
+[17:06:43] ---------------
+[17:06:43]   Loaded 0 filterscripts.
+
+[17:06:43]  
+[17:06:43]  
+[17:06:43]  
+[17:06:43]  ======================================= 
+[17:06:43]  |                                     | 
+[17:06:43]  |        YSI version 4.00.0001        | 
+[17:06:43]  |        By Alex "Y_Less" Cole        | 
+[17:06:43]  |                                     | 
+[17:06:43]  ======================================= 
+[17:06:43]  
+[17:06:43] 
+---------------------------------------
+[17:06:43] Running DOGFIGHT - By Anteino
+
+[17:06:43] ---------------------------------------
+
+[17:06:43] Number of vehicle models: 0
+[17:06:45] [connection] 192.168.0.1:57825 requests connection cookie.
+[17:06:46] [connection] incoming connection: 192.168.0.1:57825 id: 0
+[17:06:46] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:10:41] filterscripts = ""  (string)
+[17:10:41] 
+[17:10:41] Server Plugins
+[17:10:41] --------------
+[17:10:41]  Loading plugin: sscanf
+[17:10:41] 
+
+[17:10:41]  ===============================
+
+[17:10:41]       sscanf plugin loaded.     
+
+[17:10:41]          Version:  2.8.2        
+
+[17:10:41]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:10:41]  ===============================
+
+[17:10:41]   Loaded.
+[17:10:41]  Loaded 1 plugins.
+
+[17:10:41] 
+[17:10:41] Filterscripts
+[17:10:41] ---------------
+[17:10:41]   Loaded 0 filterscripts.
+
+[17:10:41]  
+[17:10:41]  
+[17:10:41]  
+[17:10:41]  ======================================= 
+[17:10:41]  |                                     | 
+[17:10:41]  |        YSI version 4.00.0001        | 
+[17:10:41]  |        By Alex "Y_Less" Cole        | 
+[17:10:41]  |                                     | 
+[17:10:41]  ======================================= 
+[17:10:41]  
+[17:10:42] 
+---------------------------------------
+[17:10:42] Running DOGFIGHT - By Anteino
+
+[17:10:42] ---------------------------------------
+
+[17:10:42] Number of vehicle models: 0
+[17:10:56] [connection] 192.168.0.1:50605 requests connection cookie.
+[17:10:57] [connection] incoming connection: 192.168.0.1:50605 id: 0
+[17:10:57] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:13:14] filterscripts = ""  (string)
+[17:13:14] 
+[17:13:14] Server Plugins
+[17:13:14] --------------
+[17:13:14]  Loading plugin: sscanf
+[17:13:14] 
+
+[17:13:14]  ===============================
+
+[17:13:14]       sscanf plugin loaded.     
+
+[17:13:14]          Version:  2.8.2        
+
+[17:13:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:13:14]  ===============================
+
+[17:13:14]   Loaded.
+[17:13:14]  Loaded 1 plugins.
+
+[17:13:14] 
+[17:13:14] Filterscripts
+[17:13:14] ---------------
+[17:13:14]   Loaded 0 filterscripts.
+
+[17:13:14]  
+[17:13:14]  
+[17:13:14]  
+[17:13:14]  ======================================= 
+[17:13:14]  |                                     | 
+[17:13:14]  |        YSI version 4.00.0001        | 
+[17:13:14]  |        By Alex "Y_Less" Cole        | 
+[17:13:14]  |                                     | 
+[17:13:14]  ======================================= 
+[17:13:14]  
+[17:13:14] 
+---------------------------------------
+[17:13:14] Running DOGFIGHT - By Anteino
+
+[17:13:14] ---------------------------------------
+
+[17:13:14] Number of vehicle models: 0
+[17:13:24] [connection] 192.168.0.1:60288 requests connection cookie.
+[17:13:25] [connection] incoming connection: 192.168.0.1:60288 id: 0
+[17:13:26] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:17:02] filterscripts = ""  (string)
+[17:17:02] 
+[17:17:02] Server Plugins
+[17:17:02] --------------
+[17:17:02]  Loading plugin: sscanf
+[17:17:02] 
+
+[17:17:02]  ===============================
+
+[17:17:02]       sscanf plugin loaded.     
+
+[17:17:02]          Version:  2.8.2        
+
+[17:17:02]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:17:02]  ===============================
+
+[17:17:02]   Loaded.
+[17:17:02]  Loaded 1 plugins.
+
+[17:17:02] 
+[17:17:02] Filterscripts
+[17:17:02] ---------------
+[17:17:02]   Loaded 0 filterscripts.
+
+[17:17:02]  
+[17:17:02]  
+[17:17:02]  
+[17:17:02]  ======================================= 
+[17:17:02]  |                                     | 
+[17:17:02]  |        YSI version 4.00.0001        | 
+[17:17:02]  |        By Alex "Y_Less" Cole        | 
+[17:17:02]  |                                     | 
+[17:17:02]  ======================================= 
+[17:17:02]  
+[17:17:02] 
+---------------------------------------
+[17:17:02] Running DOGFIGHT - By Anteino
+
+[17:17:02] ---------------------------------------
+
+[17:17:02] Number of vehicle models: 0
+[17:17:04] [connection] 192.168.0.1:55077 requests connection cookie.
+[17:17:05] [connection] incoming connection: 192.168.0.1:55077 id: 0
+[17:17:05] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:24:51] filterscripts = ""  (string)
+[17:24:51] 
+[17:24:51] Server Plugins
+[17:24:51] --------------
+[17:24:51]  Loading plugin: sscanf
+[17:24:51] 
+
+[17:24:51]  ===============================
+
+[17:24:51]       sscanf plugin loaded.     
+
+[17:24:51]          Version:  2.8.2        
+
+[17:24:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:24:51]  ===============================
+
+[17:24:51]   Loaded.
+[17:24:51]  Loaded 1 plugins.
+
+[17:24:51] I couldn't load any gamemode scripts. Please verify your server.cfg
+[17:24:51] It needs a gamemode0 line at the very least.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:25:09] filterscripts = ""  (string)
+[17:25:09] 
+[17:25:09] Server Plugins
+[17:25:09] --------------
+[17:25:09]  Loading plugin: sscanf
+[17:25:09] 
+
+[17:25:09]  ===============================
+
+[17:25:09]       sscanf plugin loaded.     
+
+[17:25:09]          Version:  2.8.2        
+
+[17:25:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:25:09]  ===============================
+
+[17:25:09]   Loaded.
+[17:25:09]  Loaded 1 plugins.
+
+[17:25:09] 
+[17:25:09] Filterscripts
+[17:25:09] ---------------
+[17:25:09]   Loaded 0 filterscripts.
+
+[17:25:09]  
+[17:25:09]  
+[17:25:09]  
+[17:25:09]  ======================================= 
+[17:25:09]  |                                     | 
+[17:25:09]  |        YSI version 4.00.0001        | 
+[17:25:09]  |        By Alex "Y_Less" Cole        | 
+[17:25:09]  |                                     | 
+[17:25:09]  ======================================= 
+[17:25:09]  
+[17:25:09] 
+---------------------------------------
+[17:25:09] Running DOGFIGHT - By Anteino
+
+[17:25:09] ---------------------------------------
+
+[17:25:09] Number of vehicle models: 0
+[17:25:11] [connection] 192.168.0.1:62969 requests connection cookie.
+[17:25:12] [connection] incoming connection: 192.168.0.1:62969 id: 0
+[17:25:12] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:19:59] filterscripts = ""  (string)
+[18:19:59] 
+[18:19:59] Server Plugins
+[18:19:59] --------------
+[18:19:59]  Loading plugin: sscanf
+[18:19:59] 
+
+[18:19:59]  ===============================
+
+[18:19:59]       sscanf plugin loaded.     
+
+[18:19:59]          Version:  2.8.2        
+
+[18:19:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:19:59]  ===============================
+
+[18:19:59]   Loaded.
+[18:19:59]  Loaded 1 plugins.
+
+[18:19:59] 
+[18:19:59] Filterscripts
+[18:19:59] ---------------
+[18:19:59]   Loaded 0 filterscripts.
+
+[18:19:59]  
+[18:19:59]  
+[18:19:59]  
+[18:19:59]  ======================================= 
+[18:19:59]  |                                     | 
+[18:19:59]  |        YSI version 4.00.0001        | 
+[18:19:59]  |        By Alex "Y_Less" Cole        | 
+[18:19:59]  |                                     | 
+[18:19:59]  ======================================= 
+[18:19:59]  
+[18:19:59] 
+---------------------------------------
+[18:19:59] Running DOGFIGHT - By Anteino
+
+[18:19:59] ---------------------------------------
+
+[18:19:59] Number of vehicle models: 0
+[18:20:11] [connection] 192.168.0.1:63205 requests connection cookie.
+[18:20:12] [connection] incoming connection: 192.168.0.1:63205 id: 0
+[18:20:12] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:28:51] filterscripts = ""  (string)
+[18:28:51] 
+[18:28:51] Server Plugins
+[18:28:51] --------------
+[18:28:51]  Loading plugin: sscanf
+[18:28:51] 
+
+[18:28:51]  ===============================
+
+[18:28:51]       sscanf plugin loaded.     
+
+[18:28:51]          Version:  2.8.2        
+
+[18:28:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:28:51]  ===============================
+
+[18:28:51]   Loaded.
+[18:28:51]  Loaded 1 plugins.
+
+[18:28:51] 
+[18:28:51] Filterscripts
+[18:28:51] ---------------
+[18:28:51]   Loaded 0 filterscripts.
+
+[18:28:51]  
+[18:28:51]  
+[18:28:51]  
+[18:28:51]  ======================================= 
+[18:28:51]  |                                     | 
+[18:28:51]  |        YSI version 4.00.0001        | 
+[18:28:51]  |        By Alex "Y_Less" Cole        | 
+[18:28:51]  |                                     | 
+[18:28:51]  ======================================= 
+[18:28:51]  
+[18:28:51] 
+---------------------------------------
+[18:28:51] Running DOGFIGHT - By Anteino
+
+[18:28:51] ---------------------------------------
+
+[18:28:51] Number of vehicle models: 0
+[18:29:10] [connection] 192.168.0.1:50523 requests connection cookie.
+[18:29:11] [connection] incoming connection: 192.168.0.1:50523 id: 0
+[18:29:12] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:29:58] filterscripts = ""  (string)
+[18:29:58] 
+[18:29:58] Server Plugins
+[18:29:58] --------------
+[18:29:58]  Loading plugin: sscanf
+[18:29:58] 
+
+[18:29:58]  ===============================
+
+[18:29:58]       sscanf plugin loaded.     
+
+[18:29:58]          Version:  2.8.2        
+
+[18:29:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:29:58]  ===============================
+
+[18:29:58]   Loaded.
+[18:29:58]  Loaded 1 plugins.
+
+[18:29:58] 
+[18:29:58] Filterscripts
+[18:29:58] ---------------
+[18:29:58]   Loaded 0 filterscripts.
+
+[18:29:58]  
+[18:29:58]  
+[18:29:58]  
+[18:29:58]  ======================================= 
+[18:29:58]  |                                     | 
+[18:29:58]  |        YSI version 4.00.0001        | 
+[18:29:58]  |        By Alex "Y_Less" Cole        | 
+[18:29:58]  |                                     | 
+[18:29:58]  ======================================= 
+[18:29:58]  
+[18:29:59] 
+---------------------------------------
+[18:29:59] Running DOGFIGHT - By Anteino
+
+[18:29:59] ---------------------------------------
+
+[18:29:59] Number of vehicle models: 0
+[18:30:17] [connection] 192.168.0.1:56766 requests connection cookie.
+[18:30:18] [connection] incoming connection: 192.168.0.1:56766 id: 0
+[18:30:18] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:36:49] filterscripts = ""  (string)
+[18:36:49] 
+[18:36:49] Server Plugins
+[18:36:49] --------------
+[18:36:49]  Loading plugin: sscanf
+[18:36:49] 
+
+[18:36:49]  ===============================
+
+[18:36:49]       sscanf plugin loaded.     
+
+[18:36:49]          Version:  2.8.2        
+
+[18:36:49]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:36:49]  ===============================
+
+[18:36:49]   Loaded.
+[18:36:49]  Loaded 1 plugins.
+
+[18:36:49] 
+[18:36:49] Filterscripts
+[18:36:49] ---------------
+[18:36:49]   Loaded 0 filterscripts.
+
+[18:36:49]  
+[18:36:49]  
+[18:36:49]  
+[18:36:49]  ======================================= 
+[18:36:49]  |                                     | 
+[18:36:49]  |        YSI version 4.00.0001        | 
+[18:36:49]  |        By Alex "Y_Less" Cole        | 
+[18:36:49]  |                                     | 
+[18:36:49]  ======================================= 
+[18:36:49]  
+[18:36:49] 
+---------------------------------------
+[18:36:49] Running DOGFIGHT - By Anteino
+
+[18:36:49] ---------------------------------------
+
+[18:36:49] Number of vehicle models: 0
+[18:36:51] [connection] 192.168.0.1:63687 requests connection cookie.
+[18:36:52] [connection] incoming connection: 192.168.0.1:63687 id: 0
+[18:36:52] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:11:48] filterscripts = ""  (string)
+[19:11:48] 
+[19:11:48] Server Plugins
+[19:11:48] --------------
+[19:11:48]  Loading plugin: sscanf
+[19:11:48] 
+
+[19:11:48]  ===============================
+
+[19:11:48]       sscanf plugin loaded.     
+
+[19:11:48]          Version:  2.8.2        
+
+[19:11:48]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:11:48]  ===============================
+
+[19:11:48]   Loaded.
+[19:11:48]  Loaded 1 plugins.
+
+[19:11:48] 
+[19:11:48] Filterscripts
+[19:11:48] ---------------
+[19:11:48]   Loaded 0 filterscripts.
+
+[19:11:48]  
+[19:11:48]  
+[19:11:48]  
+[19:11:48]  ======================================= 
+[19:11:48]  |                                     | 
+[19:11:48]  |        YSI version 4.00.0001        | 
+[19:11:48]  |        By Alex "Y_Less" Cole        | 
+[19:11:48]  |                                     | 
+[19:11:48]  ======================================= 
+[19:11:48]  
+[19:11:48] 
+---------------------------------------
+[19:11:48] Running DOGFIGHT - By Anteino
+
+[19:11:48] ---------------------------------------
+
+[19:11:48] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:22:47] filterscripts = ""  (string)
+[19:22:47] 
+[19:22:47] Server Plugins
+[19:22:47] --------------
+[19:22:47]  Loading plugin: sscanf
+[19:22:47] 
+
+[19:22:47]  ===============================
+
+[19:22:47]       sscanf plugin loaded.     
+
+[19:22:47]          Version:  2.8.2        
+
+[19:22:47]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:22:47]  ===============================
+
+[19:22:47]   Loaded.
+[19:22:47]  Loaded 1 plugins.
+
+[19:22:47] 
+[19:22:47] Filterscripts
+[19:22:47] ---------------
+[19:22:47]   Loaded 0 filterscripts.
+
+[19:22:47]  
+[19:22:47]  
+[19:22:47]  
+[19:22:47]  ======================================= 
+[19:22:47]  |                                     | 
+[19:22:47]  |        YSI version 4.00.0001        | 
+[19:22:47]  |        By Alex "Y_Less" Cole        | 
+[19:22:47]  |                                     | 
+[19:22:47]  ======================================= 
+[19:22:47]  
+[19:22:47] 
+---------------------------------------
+[19:22:47] Running DOGFIGHT - By Anteino
+
+[19:22:47] ---------------------------------------
+
+[19:22:47] Number of vehicle models: 0
+[19:22:52] [connection] 192.168.0.1:60382 requests connection cookie.
+[19:22:53] [connection] incoming connection: 192.168.0.1:60382 id: 0
+[19:22:53] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:34:09] filterscripts = ""  (string)
+[19:34:09] 
+[19:34:09] Server Plugins
+[19:34:09] --------------
+[19:34:09]  Loading plugin: sscanf
+[19:34:09] 
+
+[19:34:09]  ===============================
+
+[19:34:09]       sscanf plugin loaded.     
+
+[19:34:09]          Version:  2.8.2        
+
+[19:34:09]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:34:09]  ===============================
+
+[19:34:09]   Loaded.
+[19:34:09]  Loaded 1 plugins.
+
+[19:34:09] 
+[19:34:09] Filterscripts
+[19:34:09] ---------------
+[19:34:09]   Loaded 0 filterscripts.
+
+[19:34:09]  
+[19:34:09]  
+[19:34:09]  
+[19:34:09]  ======================================= 
+[19:34:09]  |                                     | 
+[19:34:09]  |        YSI version 4.00.0001        | 
+[19:34:09]  |        By Alex "Y_Less" Cole        | 
+[19:34:09]  |                                     | 
+[19:34:09]  ======================================= 
+[19:34:09]  
+[19:34:09] 
+---------------------------------------
+[19:34:09] Running DOGFIGHT - By Anteino
+
+[19:34:09] ---------------------------------------
+
+[19:34:09] Number of vehicle models: 0
+[19:34:11] [connection] 192.168.0.1:65378 requests connection cookie.
+[19:34:12] [connection] incoming connection: 192.168.0.1:65378 id: 0
+[19:34:12] [join] Anteino has joined the server (0:192.168.0.1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:40:35] filterscripts = ""  (string)
+[19:40:35] 
+[19:40:35] Server Plugins
+[19:40:35] --------------
+[19:40:35]  Loading plugin: sscanf
+[19:40:35] 
+
+[19:40:35]  ===============================
+
+[19:40:35]       sscanf plugin loaded.     
+
+[19:40:35]          Version:  2.8.2        
+
+[19:40:35]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:40:35]  ===============================
+
+[19:40:35]   Loaded.
+[19:40:35]  Loaded 1 plugins.
+
+[19:40:35] 
+[19:40:35] Filterscripts
+[19:40:35] ---------------
+[19:40:35]   Loaded 0 filterscripts.
+
+[19:40:35]  
+[19:40:35]  
+[19:40:35]  
+[19:40:35]  ======================================= 
+[19:40:35]  |                                     | 
+[19:40:35]  |        YSI version 4.00.0001        | 
+[19:40:35]  |        By Alex "Y_Less" Cole        | 
+[19:40:35]  |                                     | 
+[19:40:35]  ======================================= 
+[19:40:35]  
+[19:40:35] 
+---------------------------------------
+[19:40:35] Running DOGFIGHT - By Anteino
+
+[19:40:35] ---------------------------------------
+
+[19:40:35] Number of vehicle models: 0
+[19:40:45] [connection] 192.168.0.1:54792 requests connection cookie.
+[19:40:46] [connection] incoming connection: 192.168.0.1:54792 id: 0
+[19:40:47] [join] Anteino has joined the server (0:192.168.0.1)
+[20:00:30] [connection] 93.143.220.205:51956 requests connection cookie.
+[20:00:31] [connection] incoming connection: 93.143.220.205:51956 id: 1
+[20:00:31] [connection] incoming connection: 93.143.220.205:51957 id: 1
+[20:00:31] [join] Shadow has joined the server (1:93.143.220.205)
+[20:01:17] [part] Shadow has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:31:07] filterscripts = ""  (string)
+[23:31:07] 
+[23:31:07] Server Plugins
+[23:31:07] --------------
+[23:31:07]  Loading plugin: sscanf
+[23:31:07] 
+
+[23:31:07]  ===============================
+
+[23:31:07]       sscanf plugin loaded.     
+
+[23:31:07]          Version:  2.8.2        
+
+[23:31:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:31:07]  ===============================
+
+[23:31:07]   Loaded.
+[23:31:07]  Loaded 1 plugins.
+
+[23:31:07] 
+[23:31:07] Filterscripts
+[23:31:07] ---------------
+[23:31:07]   Loaded 0 filterscripts.
+
+[23:31:07]  
+[23:31:07]  
+[23:31:07]  
+[23:31:07]  ======================================= 
+[23:31:07]  |                                     | 
+[23:31:07]  |        YSI version 4.00.0001        | 
+[23:31:07]  |        By Alex "Y_Less" Cole        | 
+[23:31:07]  |                                     | 
+[23:31:07]  ======================================= 
+[23:31:07]  
+[23:31:08] 
+---------------------------------------
+[23:31:08] Running DOGFIGHT - By Anteino
+
+[23:31:08] ---------------------------------------
+
+[23:31:08] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:32:17] filterscripts = ""  (string)
+[23:32:17] 
+[23:32:17] Server Plugins
+[23:32:17] --------------
+[23:32:17]  Loading plugin: sscanf
+[23:32:17] 
+
+[23:32:17]  ===============================
+
+[23:32:17]       sscanf plugin loaded.     
+
+[23:32:17]          Version:  2.8.2        
+
+[23:32:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:32:17]  ===============================
+
+[23:32:17]   Loaded.
+[23:32:17]  Loaded 1 plugins.
+
+[23:32:17] 
+[23:32:17] Filterscripts
+[23:32:17] ---------------
+[23:32:17]   Loaded 0 filterscripts.
+
+[23:32:17]  
+[23:32:17]  
+[23:32:17]  
+[23:32:17]  ======================================= 
+[23:32:17]  |                                     | 
+[23:32:17]  |        YSI version 4.00.0001        | 
+[23:32:17]  |        By Alex "Y_Less" Cole        | 
+[23:32:17]  |                                     | 
+[23:32:17]  ======================================= 
+[23:32:17]  
+[23:32:18] 
+---------------------------------------
+[23:32:18] Running DOGFIGHT - By Anteino
+
+[23:32:18] ---------------------------------------
+
+[23:32:18] Number of vehicle models: 0
+[23:33:33] [connection] 192.168.0.144:53260 requests connection cookie.
+[23:33:34] [connection] incoming connection: 192.168.0.144:53260 id: 0
+[23:33:34] [join] ZZEGERMAN has joined the server (0:192.168.0.144)
+[23:33:40] [connection] 192.168.0.140:52689 requests connection cookie.
+[23:33:41] [connection] incoming connection: 192.168.0.140:52689 id: 1
+[23:33:42] [join] Henkie has joined the server (1:192.168.0.140)
+[23:36:23] [warning] client exceeded 'ackslimit' 192.168.0.144:53260 (5168) Limit: 3000/sec
+[23:36:33] [part] ZZEGERMAN has left the server (0:0)
+[23:38:31] RCON (In-Game): Player #1 (Henkie) has logged in.
+[23:38:35] [connection] 192.168.0.144:49552 requests connection cookie.
+[23:38:36] [connection] incoming connection: 192.168.0.144:49552 id: 0
+[23:38:36] [join] ZZEGERMAN has joined the server (0:192.168.0.144)
+[23:42:54] [part] ZZEGERMAN has left the server (0:1)
+[23:43:20] [connection] 192.168.0.144:58024 requests connection cookie.
+[23:43:21] [connection] incoming connection: 192.168.0.144:58024 id: 0
+[23:43:22] [join] ZZEGERMAN has joined the server (0:192.168.0.144)
+[23:46:25] [warning] client exceeded 'ackslimit' 192.168.0.144:58024 (3711) Limit: 3000/sec
+[23:46:35] [part] ZZEGERMAN has left the server (0:0)
+[23:48:48] [connection] 192.168.0.144:61324 requests connection cookie.
+[23:48:49] [connection] incoming connection: 192.168.0.144:61324 id: 0
+[23:48:50] [join] ZZEGERMAN has joined the server (0:192.168.0.144)
+[23:49:20] [warning] client exceeded 'ackslimit' 192.168.0.144:61324 (3493) Limit: 3000/sec
+[23:49:30] [part] ZZEGERMAN has left the server (0:0)
+[23:50:23] [connection] 192.168.0.144:63349 requests connection cookie.
+[23:50:24] [connection] incoming connection: 192.168.0.144:63349 id: 0
+[23:50:24] [join] ZZEGERMAN has joined the server (0:192.168.0.144)
+[23:52:17] [warning] client exceeded 'ackslimit' 192.168.0.144:63349 (5053) Limit: 3000/sec
+[23:52:27] [part] ZZEGERMAN has left the server (0:0)
+[23:55:16] [connection] 192.168.0.144:51463 requests connection cookie.
+[23:55:17] [connection] incoming connection: 192.168.0.144:51463 id: 0
+[23:55:18] [join] ZZEGERMAN has joined the server (0:192.168.0.144)
+[23:56:16] [warning] client exceeded 'ackslimit' 192.168.0.144:51463 (3391) Limit: 3000/sec
+[23:56:28] [part] ZZEGERMAN has left the server (0:0)
+[23:56:49] [part] Henkie has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[23:59:51] filterscripts = ""  (string)
+[23:59:51] 
+[23:59:51] Server Plugins
+[23:59:51] --------------
+[23:59:51]  Loading plugin: sscanf
+[23:59:51] 
+
+[23:59:51]  ===============================
+
+[23:59:51]       sscanf plugin loaded.     
+
+[23:59:51]          Version:  2.8.2        
+
+[23:59:51]    (c) 2012 Alex "Y_Less" Cole  
+
+[23:59:51]  ===============================
+
+[23:59:51]   Loaded.
+[23:59:51]  Loaded 1 plugins.
+
+[23:59:51] 
+[23:59:51] Filterscripts
+[23:59:51] ---------------
+[23:59:51]   Loaded 0 filterscripts.
+
+[23:59:51]  
+[23:59:51]  
+[23:59:51]  
+[23:59:51]  ======================================= 
+[23:59:51]  |                                     | 
+[23:59:51]  |        YSI version 4.00.0001        | 
+[23:59:51]  |        By Alex "Y_Less" Cole        | 
+[23:59:51]  |                                     | 
+[23:59:51]  ======================================= 
+[23:59:51]  
+[23:59:51] 
+---------------------------------------
+[23:59:51] Running DOGFIGHT - By Anteino
+
+[23:59:51] ---------------------------------------
+
+[23:59:51] Number of vehicle models: 0
+[00:00:17] [connection] 192.168.0.1:49171 requests connection cookie.
+[00:00:18] [connection] incoming connection: 192.168.0.1:49171 id: 0
+[00:00:19] [join] ZZEGERMAN has joined the server (0:192.168.0.1)
+[00:00:22] [connection] 192.168.0.140:49236 requests connection cookie.
+[00:00:23] [connection] incoming connection: 192.168.0.140:49236 id: 1
+[00:00:24] [join] Henkie has joined the server (1:192.168.0.140)
+[00:13:23] [part] Henkie has left the server (1:1)
+[00:26:42] [connection] 192.168.0.140:52418 requests connection cookie.
+[00:26:43] [connection] incoming connection: 192.168.0.140:52418 id: 1
+[00:26:43] [join] Henkie has joined the server (1:192.168.0.140)
+[00:28:16] [connection] 192.168.0.178:55932 requests connection cookie.
+[00:28:17] [connection] incoming connection: 192.168.0.178:55932 id: 2
+[00:28:18] [join] Anteino has joined the server (2:192.168.0.178)
+[00:33:10] [warning] client exceeded 'ackslimit' 192.168.0.178:55932 (3149) Limit: 3000/sec
+[00:33:20] [part] Anteino has left the server (2:0)
+[00:34:22] [connection] 192.168.0.178:50282 requests connection cookie.
+[00:34:23] [connection] incoming connection: 192.168.0.178:50282 id: 2
+[00:34:23] [join] Anteino has joined the server (2:192.168.0.178)
+[00:40:38] RCON (In-Game): Player #2 (Anteino) has logged in.
+[00:40:43] RCON (In-Game): Player [Anteino] sent command: weather 100
+[00:40:48] RCON (In-Game): Player [Anteino] sent command: weather 100
+[00:40:54] RCON (In-Game): Player [Anteino] sent command: weather 100
+[00:40:57] RCON (In-Game): Player [Anteino] sent command: weather 100
+[00:40:59] RCON (In-Game): Player [Anteino] sent command: weather 100
+[00:49:34] [warning] client exceeded 'ackslimit' 192.168.0.178:50282 (3930) Limit: 3000/sec
+[00:49:44] [part] Anteino has left the server (2:0)
+[00:50:44] [connection] 192.168.0.178:63293 requests connection cookie.
+[00:50:45] [connection] incoming connection: 192.168.0.178:63293 id: 2
+[00:50:45] [join] Anteino has joined the server (2:192.168.0.178)
+[00:56:48] [part] ZZEGERMAN has left the server (0:0)
+[01:12:38] [part] Henkie has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[14:57:07] filterscripts = ""  (string)
+[14:57:07] 
+[14:57:07] Server Plugins
+[14:57:07] --------------
+[14:57:07]  Loading plugin: sscanf
+[14:57:07] 
+
+[14:57:07]  ===============================
+
+[14:57:07]       sscanf plugin loaded.     
+
+[14:57:07]          Version:  2.8.2        
+
+[14:57:07]    (c) 2012 Alex "Y_Less" Cole  
+
+[14:57:07]  ===============================
+
+[14:57:07]   Loaded.
+[14:57:07]  Loaded 1 plugins.
+
+[14:57:07] 
+[14:57:07] Filterscripts
+[14:57:07] ---------------
+[14:57:07]   Loaded 0 filterscripts.
+
+[14:57:07]  
+[14:57:07]  
+[14:57:07]  
+[14:57:07]  ======================================= 
+[14:57:07]  |                                     | 
+[14:57:07]  |        YSI version 4.00.0001        | 
+[14:57:07]  |        By Alex "Y_Less" Cole        | 
+[14:57:07]  |                                     | 
+[14:57:07]  ======================================= 
+[14:57:07]  
+[14:57:07] 
+---------------------------------------
+[14:57:07] Running DOGFIGHT - By Anteino
+
+[14:57:07] ---------------------------------------
+
+[14:57:07] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[16:56:17] filterscripts = ""  (string)
+[16:56:17] 
+[16:56:17] Server Plugins
+[16:56:17] --------------
+[16:56:17]  Loading plugin: sscanf
+[16:56:17] 
+
+[16:56:17]  ===============================
+
+[16:56:17]       sscanf plugin loaded.     
+
+[16:56:17]          Version:  2.8.2        
+
+[16:56:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[16:56:17]  ===============================
+
+[16:56:17]   Loaded.
+[16:56:17]  Loaded 1 plugins.
+
+[16:56:17] 
+[16:56:17] Filterscripts
+[16:56:17] ---------------
+[16:56:17]   Loaded 0 filterscripts.
+
+[16:56:17]  
+[16:56:17]  
+[16:56:17]  
+[16:56:17]  ======================================= 
+[16:56:17]  |                                     | 
+[16:56:17]  |        YSI version 4.00.0001        | 
+[16:56:17]  |        By Alex "Y_Less" Cole        | 
+[16:56:17]  |                                     | 
+[16:56:17]  ======================================= 
+[16:56:17]  
+[16:56:17] 
+---------------------------------------
+[16:56:17] Running DOGFIGHT - By Anteino
+
+[16:56:17] ---------------------------------------
+
+[16:56:17] Number of vehicle models: 0
+[16:56:36] [connection] 192.168.0.140:61947 requests connection cookie.
+[16:56:37] [connection] incoming connection: 192.168.0.140:61947 id: 0
+[16:56:38] [join] Henkie has joined the server (0:192.168.0.140)
+[17:01:13] RCON (In-Game): Player #0 (Henkie) has logged in.
+[17:01:28] RCON (In-Game): Player [Henkie] sent command: logout
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:33:58] filterscripts = ""  (string)
+[17:33:58] 
+[17:33:58] Server Plugins
+[17:33:58] --------------
+[17:33:58]  Loading plugin: sscanf
+[17:33:58] 
+
+[17:33:58]  ===============================
+
+[17:33:58]       sscanf plugin loaded.     
+
+[17:33:58]          Version:  2.8.2        
+
+[17:33:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:33:58]  ===============================
+
+[17:33:58]   Loaded.
+[17:33:58]  Loaded 1 plugins.
+
+[17:33:59] 
+[17:33:59] Filterscripts
+[17:33:59] ---------------
+[17:33:59]   Loaded 0 filterscripts.
+
+[17:33:59]  
+[17:33:59]  
+[17:33:59]  
+[17:33:59]  ======================================= 
+[17:33:59]  |                                     | 
+[17:33:59]  |        YSI version 4.00.0001        | 
+[17:33:59]  |        By Alex "Y_Less" Cole        | 
+[17:33:59]  |                                     | 
+[17:33:59]  ======================================= 
+[17:33:59]  
+[17:33:59] 
+---------------------------------------
+[17:33:59] Running DOGFIGHT - By Anteino
+
+[17:33:59] ---------------------------------------
+
+[17:33:59] Number of vehicle models: 0
+[17:34:00] [connection] 192.168.0.140:59962 requests connection cookie.
+[17:34:01] [connection] incoming connection: 192.168.0.140:59962 id: 0
+[17:34:02] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:37:22] filterscripts = ""  (string)
+[17:37:22] 
+[17:37:22] Server Plugins
+[17:37:22] --------------
+[17:37:22]  Loading plugin: sscanf
+[17:37:22] 
+
+[17:37:22]  ===============================
+
+[17:37:22]       sscanf plugin loaded.     
+
+[17:37:22]          Version:  2.8.2        
+
+[17:37:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:37:22]  ===============================
+
+[17:37:22]   Loaded.
+[17:37:22]  Loaded 1 plugins.
+
+[17:37:22] 
+[17:37:22] Filterscripts
+[17:37:22] ---------------
+[17:37:22]   Loaded 0 filterscripts.
+
+[17:37:22]  
+[17:37:22]  
+[17:37:22]  
+[17:37:22]  ======================================= 
+[17:37:22]  |                                     | 
+[17:37:22]  |        YSI version 4.00.0001        | 
+[17:37:22]  |        By Alex "Y_Less" Cole        | 
+[17:37:22]  |                                     | 
+[17:37:22]  ======================================= 
+[17:37:22]  
+[17:37:23] 
+---------------------------------------
+[17:37:23] Running DOGFIGHT - By Anteino
+
+[17:37:23] ---------------------------------------
+
+[17:37:23] Number of vehicle models: 0
+[17:37:24] [connection] 192.168.0.140:60077 requests connection cookie.
+[17:37:25] [connection] incoming connection: 192.168.0.140:60077 id: 0
+[17:37:26] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:40:59] filterscripts = ""  (string)
+[17:40:59] 
+[17:40:59] Server Plugins
+[17:40:59] --------------
+[17:40:59]  Loading plugin: sscanf
+[17:40:59] 
+
+[17:40:59]  ===============================
+
+[17:40:59]       sscanf plugin loaded.     
+
+[17:40:59]          Version:  2.8.2        
+
+[17:40:59]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:40:59]  ===============================
+
+[17:40:59]   Loaded.
+[17:40:59]  Loaded 1 plugins.
+
+[17:40:59] 
+[17:40:59] Filterscripts
+[17:40:59] ---------------
+[17:40:59]   Loaded 0 filterscripts.
+
+[17:40:59]  
+[17:40:59]  
+[17:40:59]  
+[17:40:59]  ======================================= 
+[17:40:59]  |                                     | 
+[17:40:59]  |        YSI version 4.00.0001        | 
+[17:40:59]  |        By Alex "Y_Less" Cole        | 
+[17:40:59]  |                                     | 
+[17:40:59]  ======================================= 
+[17:40:59]  
+[17:40:59] 
+---------------------------------------
+[17:40:59] Running DOGFIGHT - By Anteino
+
+[17:40:59] ---------------------------------------
+
+[17:40:59] Number of vehicle models: 0
+[17:41:17] [connection] 192.168.0.140:60263 requests connection cookie.
+[17:41:18] [connection] incoming connection: 192.168.0.140:60263 id: 0
+[17:41:19] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:42:39] filterscripts = ""  (string)
+[17:42:39] 
+[17:42:39] Server Plugins
+[17:42:39] --------------
+[17:42:39]  Loading plugin: sscanf
+[17:42:39] 
+
+[17:42:39]  ===============================
+
+[17:42:39]       sscanf plugin loaded.     
+
+[17:42:39]          Version:  2.8.2        
+
+[17:42:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:42:39]  ===============================
+
+[17:42:39]   Loaded.
+[17:42:39]  Loaded 1 plugins.
+
+[17:42:39] 
+[17:42:39] Filterscripts
+[17:42:39] ---------------
+[17:42:39]   Loaded 0 filterscripts.
+
+[17:42:39] Script[gamemodes/dogfight.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[17:42:39] Failed to load 'gamemodes/dogfight.amx' script.
+[17:42:39] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:42:42] filterscripts = ""  (string)
+[17:42:42] 
+[17:42:42] Server Plugins
+[17:42:42] --------------
+[17:42:42]  Loading plugin: sscanf
+[17:42:42] 
+
+[17:42:42]  ===============================
+
+[17:42:42]       sscanf plugin loaded.     
+
+[17:42:42]          Version:  2.8.2        
+
+[17:42:42]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:42:42]  ===============================
+
+[17:42:42]   Loaded.
+[17:42:42]  Loaded 1 plugins.
+
+[17:42:42] 
+[17:42:42] Filterscripts
+[17:42:42] ---------------
+[17:42:42]   Loaded 0 filterscripts.
+
+[17:42:42]  
+[17:42:42]  
+[17:42:42]  
+[17:42:42]  ======================================= 
+[17:42:42]  |                                     | 
+[17:42:42]  |        YSI version 4.00.0001        | 
+[17:42:42]  |        By Alex "Y_Less" Cole        | 
+[17:42:42]  |                                     | 
+[17:42:42]  ======================================= 
+[17:42:42]  
+[17:42:43] 
+---------------------------------------
+[17:42:43] Running DOGFIGHT - By Anteino
+
+[17:42:43] ---------------------------------------
+
+[17:42:43] Number of vehicle models: 0
+[17:42:44] [connection] 192.168.0.140:54686 requests connection cookie.
+[17:42:45] [connection] incoming connection: 192.168.0.140:54686 id: 0
+[17:42:45] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[17:43:22] filterscripts = ""  (string)
+[17:43:22] 
+[17:43:22] Server Plugins
+[17:43:22] --------------
+[17:43:22]  Loading plugin: sscanf
+[17:43:22] 
+
+[17:43:22]  ===============================
+
+[17:43:22]       sscanf plugin loaded.     
+
+[17:43:22]          Version:  2.8.2        
+
+[17:43:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[17:43:22]  ===============================
+
+[17:43:22]   Loaded.
+[17:43:22]  Loaded 1 plugins.
+
+[17:43:22] 
+[17:43:22] Filterscripts
+[17:43:22] ---------------
+[17:43:22]   Loaded 0 filterscripts.
+
+[17:43:22]  
+[17:43:22]  
+[17:43:22]  
+[17:43:22]  ======================================= 
+[17:43:22]  |                                     | 
+[17:43:22]  |        YSI version 4.00.0001        | 
+[17:43:22]  |        By Alex "Y_Less" Cole        | 
+[17:43:22]  |                                     | 
+[17:43:22]  ======================================= 
+[17:43:22]  
+[17:43:22] 
+---------------------------------------
+[17:43:22] Running DOGFIGHT - By Anteino
+
+[17:43:22] ---------------------------------------
+
+[17:43:22] Number of vehicle models: 0
+[17:43:24] [connection] 192.168.0.140:49837 requests connection cookie.
+[17:43:25] [connection] incoming connection: 192.168.0.140:49837 id: 0
+[17:43:25] [join] Henkie has joined the server (0:192.168.0.140)
+[17:44:07] RCON (In-Game): Player #0 (Henkie) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:03:12] filterscripts = ""  (string)
+[18:03:12] 
+[18:03:12] Server Plugins
+[18:03:12] --------------
+[18:03:12]  Loading plugin: sscanf
+[18:03:12] 
+
+[18:03:12]  ===============================
+
+[18:03:12]       sscanf plugin loaded.     
+
+[18:03:12]          Version:  2.8.2        
+
+[18:03:12]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:03:12]  ===============================
+
+[18:03:12]   Loaded.
+[18:03:12]  Loaded 1 plugins.
+
+[18:03:12] 
+[18:03:12] Filterscripts
+[18:03:12] ---------------
+[18:03:12]   Loaded 0 filterscripts.
+
+[18:03:12]  
+[18:03:12]  
+[18:03:12]  
+[18:03:12]  ======================================= 
+[18:03:12]  |                                     | 
+[18:03:12]  |        YSI version 4.00.0001        | 
+[18:03:12]  |        By Alex "Y_Less" Cole        | 
+[18:03:12]  |                                     | 
+[18:03:12]  ======================================= 
+[18:03:12]  
+[18:03:12] 
+---------------------------------------
+[18:03:12] Running DOGFIGHT - By Anteino
+
+[18:03:12] ---------------------------------------
+
+[18:03:12] Number of vehicle models: 0
+[18:03:14] [connection] 192.168.0.140:65254 requests connection cookie.
+[18:03:15] [connection] incoming connection: 192.168.0.140:65254 id: 0
+[18:03:15] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:05:38] filterscripts = ""  (string)
+[18:05:38] 
+[18:05:38] Server Plugins
+[18:05:38] --------------
+[18:05:38]  Loading plugin: sscanf
+[18:05:38] 
+
+[18:05:38]  ===============================
+
+[18:05:38]       sscanf plugin loaded.     
+
+[18:05:38]          Version:  2.8.2        
+
+[18:05:38]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:05:38]  ===============================
+
+[18:05:38]   Loaded.
+[18:05:38]  Loaded 1 plugins.
+
+[18:05:38] 
+[18:05:38] Filterscripts
+[18:05:38] ---------------
+[18:05:38]   Loaded 0 filterscripts.
+
+[18:05:38]  
+[18:05:38]  
+[18:05:38]  
+[18:05:38]  ======================================= 
+[18:05:38]  |                                     | 
+[18:05:38]  |        YSI version 4.00.0001        | 
+[18:05:38]  |        By Alex "Y_Less" Cole        | 
+[18:05:38]  |                                     | 
+[18:05:38]  ======================================= 
+[18:05:38]  
+[18:05:38] 
+---------------------------------------
+[18:05:38] Running DOGFIGHT - By Anteino
+
+[18:05:38] ---------------------------------------
+
+[18:05:38] Number of vehicle models: 0
+[18:05:43] [connection] 192.168.0.140:54641 requests connection cookie.
+[18:05:44] [connection] incoming connection: 192.168.0.140:54641 id: 0
+[18:06:16] [connection] 192.168.0.140:63724 requests connection cookie.
+[18:06:17] [connection] incoming connection: 192.168.0.140:63724 id: 0
+[18:06:18] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:18:47] filterscripts = ""  (string)
+[18:18:47] 
+[18:18:47] Server Plugins
+[18:18:47] --------------
+[18:18:47]  Loading plugin: sscanf
+[18:18:47] 
+
+[18:18:47]  ===============================
+
+[18:18:47]       sscanf plugin loaded.     
+
+[18:18:47]          Version:  2.8.2        
+
+[18:18:47]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:18:47]  ===============================
+
+[18:18:47]   Loaded.
+[18:18:47]  Loaded 1 plugins.
+
+[18:18:47] 
+[18:18:47] Filterscripts
+[18:18:47] ---------------
+[18:18:47]   Loaded 0 filterscripts.
+
+[18:18:47]  
+[18:18:47]  
+[18:18:47]  
+[18:18:47]  ======================================= 
+[18:18:47]  |                                     | 
+[18:18:47]  |        YSI version 4.00.0001        | 
+[18:18:47]  |        By Alex "Y_Less" Cole        | 
+[18:18:47]  |                                     | 
+[18:18:47]  ======================================= 
+[18:18:47]  
+[18:18:47] 
+---------------------------------------
+[18:18:47] Running DOGFIGHT - By Anteino
+
+[18:18:47] ---------------------------------------
+
+[18:18:47] Number of vehicle models: 0
+[18:18:49] [connection] 192.168.0.140:58322 requests connection cookie.
+[18:18:50] [connection] incoming connection: 192.168.0.140:58322 id: 0
+[18:18:50] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:21:15] filterscripts = ""  (string)
+[18:21:15] 
+[18:21:15] Server Plugins
+[18:21:15] --------------
+[18:21:15]  Loading plugin: sscanf
+[18:21:15] 
+
+[18:21:15]  ===============================
+
+[18:21:15]       sscanf plugin loaded.     
+
+[18:21:15]          Version:  2.8.2        
+
+[18:21:15]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:21:15]  ===============================
+
+[18:21:15]   Loaded.
+[18:21:15]  Loaded 1 plugins.
+
+[18:21:15] 
+[18:21:15] Filterscripts
+[18:21:15] ---------------
+[18:21:15]   Loaded 0 filterscripts.
+
+[18:21:15]  
+[18:21:15]  
+[18:21:15]  
+[18:21:15]  ======================================= 
+[18:21:15]  |                                     | 
+[18:21:15]  |        YSI version 4.00.0001        | 
+[18:21:15]  |        By Alex "Y_Less" Cole        | 
+[18:21:15]  |                                     | 
+[18:21:15]  ======================================= 
+[18:21:15]  
+[18:21:15] 
+---------------------------------------
+[18:21:15] Running DOGFIGHT - By Anteino
+
+[18:21:15] ---------------------------------------
+
+[18:21:15] Number of vehicle models: 0
+[18:21:16] [connection] 192.168.0.140:57077 requests connection cookie.
+[18:21:17] [connection] incoming connection: 192.168.0.140:57077 id: 0
+[18:21:18] [join] Henkie has joined the server (0:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:50:58] filterscripts = ""  (string)
+[18:50:58] 
+[18:50:58] Server Plugins
+[18:50:58] --------------
+[18:50:58]  Loading plugin: sscanf
+[18:50:58] 
+
+[18:50:58]  ===============================
+
+[18:50:58]       sscanf plugin loaded.     
+
+[18:50:58]          Version:  2.8.2        
+
+[18:50:58]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:50:58]  ===============================
+
+[18:50:58]   Loaded.
+[18:50:58]  Loaded 1 plugins.
+
+[18:50:58] 
+[18:50:58] Filterscripts
+[18:50:58] ---------------
+[18:50:58]   Loaded 0 filterscripts.
+
+[18:50:58]  
+[18:50:58]  
+[18:50:58]  
+[18:50:58]  ======================================= 
+[18:50:58]  |                                     | 
+[18:50:58]  |        YSI version 4.00.0001        | 
+[18:50:58]  |        By Alex "Y_Less" Cole        | 
+[18:50:58]  |                                     | 
+[18:50:58]  ======================================= 
+[18:50:58]  
+[18:50:59] 
+---------------------------------------
+[18:50:59] Running DOGFIGHT - By Anteino
+
+[18:50:59] ---------------------------------------
+
+[18:50:59] Number of vehicle models: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:51:18] filterscripts = ""  (string)
+[18:51:18] 
+[18:51:18] Server Plugins
+[18:51:18] --------------
+[18:51:18]  Loading plugin: sscanf
+[18:51:18] 
+
+[18:51:18]  ===============================
+
+[18:51:18]       sscanf plugin loaded.     
+
+[18:51:18]          Version:  2.8.2        
+
+[18:51:18]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:51:18]  ===============================
+
+[18:51:18]   Loaded.
+[18:51:18]  Loaded 1 plugins.
+
+[18:51:18] 
+[18:51:18] Filterscripts
+[18:51:18] ---------------
+[18:51:18]   Loaded 0 filterscripts.
+
+[18:51:18] Script[gamemodes/dogfight.amx]: Run time error 17: "Invalid/unsupported P-code file format"
+[18:51:18] Failed to load 'gamemodes/dogfight.amx' script.
+[18:51:18] Number of vehicle models: 0
+[18:52:03] [connection] 192.168.0.178:53216 requests connection cookie.
+[18:52:04] [connection] incoming connection: 192.168.0.178:53216 id: 0
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[18:52:31] filterscripts = ""  (string)
+[18:52:31] 
+[18:52:31] Server Plugins
+[18:52:31] --------------
+[18:52:31]  Loading plugin: sscanf
+[18:52:31] 
+
+[18:52:31]  ===============================
+
+[18:52:31]       sscanf plugin loaded.     
+
+[18:52:31]          Version:  2.8.2        
+
+[18:52:31]    (c) 2012 Alex "Y_Less" Cole  
+
+[18:52:31]  ===============================
+
+[18:52:31]   Loaded.
+[18:52:31]  Loaded 1 plugins.
+
+[18:52:31] 
+[18:52:31] Filterscripts
+[18:52:31] ---------------
+[18:52:31]   Loaded 0 filterscripts.
+
+[18:52:31]  
+[18:52:31]  
+[18:52:31]  
+[18:52:31]  ======================================= 
+[18:52:31]  |                                     | 
+[18:52:31]  |        YSI version 4.00.0001        | 
+[18:52:31]  |        By Alex "Y_Less" Cole        | 
+[18:52:31]  |                                     | 
+[18:52:31]  ======================================= 
+[18:52:31]  
+[18:52:32] 
+---------------------------------------
+[18:52:32] Running DOGFIGHT - By Anteino
+
+[18:52:32] ---------------------------------------
+
+[18:52:32] Number of vehicle models: 0
+[18:52:32] [connection] 192.168.0.178:55229 requests connection cookie.
+[18:52:33] [connection] incoming connection: 192.168.0.178:55229 id: 0
+[18:52:33] [join] Anteino has joined the server (0:192.168.0.178)
+[18:52:33] [connection] 192.168.0.140:58271 requests connection cookie.
+[18:52:34] [connection] incoming connection: 192.168.0.140:58271 id: 1
+[18:52:34] [join] Henkie has joined the server (1:192.168.0.140)
+[18:52:48] RCON (In-Game): Player #1 (Henkie) has logged in.
+[18:57:38] [part] Henkie has left the server (1:1)
+[18:57:39] [part] Anteino has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:50:44] filterscripts = ""  (string)
+[19:50:44] 
+[19:50:44] Server Plugins
+[19:50:44] --------------
+[19:50:44]  Loading plugin: sscanf
+[19:50:44] 
+
+[19:50:44]  ===============================
+
+[19:50:44]       sscanf plugin loaded.     
+
+[19:50:44]          Version:  2.8.2        
+
+[19:50:44]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:50:44]  ===============================
+
+[19:50:44]   Loaded.
+[19:50:44]  Loaded 1 plugins.
+
+[19:50:44] 
+[19:50:44] Filterscripts
+[19:50:44] ---------------
+[19:50:44]   Loaded 0 filterscripts.
+
+[19:50:44]  
+[19:50:44]  
+[19:50:44]  
+[19:50:44]  ======================================= 
+[19:50:44]  |                                     | 
+[19:50:44]  |        YSI version 4.00.0001        | 
+[19:50:44]  |        By Alex "Y_Less" Cole        | 
+[19:50:44]  |                                     | 
+[19:50:44]  ======================================= 
+[19:50:44]  
+[19:50:44] 
+---------------------------------------
+[19:50:44] Running DOGFIGHT - By Anteino
+
+[19:50:44] ---------------------------------------
+
+[19:50:44] Number of vehicle models: 0
+[19:51:01] [connection] 192.168.0.140:56725 requests connection cookie.
+[19:51:02] [connection] incoming connection: 192.168.0.140:56725 id: 0
+[19:51:03] [join] Henkie has joined the server (0:192.168.0.140)
+[19:51:09] [connection] 192.168.0.178:62409 requests connection cookie.
+[19:51:10] [connection] incoming connection: 192.168.0.178:62409 id: 1
+[19:51:10] [join] Anteino has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:55:21] filterscripts = ""  (string)
+[19:55:21] 
+[19:55:21] Server Plugins
+[19:55:21] --------------
+[19:55:21]  Loading plugin: sscanf
+[19:55:21] 
+
+[19:55:21]  ===============================
+
+[19:55:21]       sscanf plugin loaded.     
+
+[19:55:21]          Version:  2.8.2        
+
+[19:55:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:55:21]  ===============================
+
+[19:55:21]   Loaded.
+[19:55:21]  Loaded 1 plugins.
+
+[19:55:21] 
+[19:55:21] Filterscripts
+[19:55:21] ---------------
+[19:55:21]   Loaded 0 filterscripts.
+
+[19:55:21]  
+[19:55:21]  
+[19:55:21]  
+[19:55:21]  ======================================= 
+[19:55:21]  |                                     | 
+[19:55:21]  |        YSI version 4.00.0001        | 
+[19:55:21]  |        By Alex "Y_Less" Cole        | 
+[19:55:21]  |                                     | 
+[19:55:21]  ======================================= 
+[19:55:21]  
+[19:55:22] [connection] 192.168.0.178:58352 requests connection cookie.
+[19:55:22] 
+---------------------------------------
+[19:55:22] Running DOGFIGHT - By Anteino
+
+[19:55:22] ---------------------------------------
+
+[19:55:22] Number of vehicle models: 0
+[19:55:23] [connection] incoming connection: 192.168.0.178:58352 id: 0
+[19:55:23] [join] Anteino has joined the server (0:192.168.0.178)
+[19:55:23] [connection] 192.168.0.140:58998 requests connection cookie.
+[19:55:24] [connection] incoming connection: 192.168.0.140:58998 id: 1
+[19:55:24] [join] Henkie has joined the server (1:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[19:58:39] filterscripts = ""  (string)
+[19:58:39] 
+[19:58:39] Server Plugins
+[19:58:39] --------------
+[19:58:39]  Loading plugin: sscanf
+[19:58:39] 
+
+[19:58:39]  ===============================
+
+[19:58:39]       sscanf plugin loaded.     
+
+[19:58:39]          Version:  2.8.2        
+
+[19:58:39]    (c) 2012 Alex "Y_Less" Cole  
+
+[19:58:39]  ===============================
+
+[19:58:39]   Loaded.
+[19:58:39]  Loaded 1 plugins.
+
+[19:58:39] 
+[19:58:39] Filterscripts
+[19:58:39] ---------------
+[19:58:39]   Loaded 0 filterscripts.
+
+[19:58:39]  
+[19:58:39]  
+[19:58:39]  
+[19:58:39]  ======================================= 
+[19:58:39]  |                                     | 
+[19:58:39]  |        YSI version 4.00.0001        | 
+[19:58:39]  |        By Alex "Y_Less" Cole        | 
+[19:58:39]  |                                     | 
+[19:58:39]  ======================================= 
+[19:58:39]  
+[19:58:39] 
+---------------------------------------
+[19:58:39] Running DOGFIGHT - By Anteino
+
+[19:58:39] ---------------------------------------
+
+[19:58:39] Number of vehicle models: 0
+[19:58:40] [connection] 192.168.0.178:58379 requests connection cookie.
+[19:58:41] [connection] incoming connection: 192.168.0.178:58379 id: 0
+[19:58:41] [join] Anteino has joined the server (0:192.168.0.178)
+[19:58:41] [connection] 192.168.0.140:65374 requests connection cookie.
+[19:58:42] [connection] incoming connection: 192.168.0.140:65374 id: 1
+[19:58:43] [join] Henkie has joined the server (1:192.168.0.140)
+[19:58:57] RCON (In-Game): Player #1 (Henkie) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:33:35] filterscripts = ""  (string)
+[20:33:35] 
+[20:33:35] Server Plugins
+[20:33:35] --------------
+[20:33:35]  Loading plugin: sscanf
+[20:33:35] 
+
+[20:33:35]  ===============================
+
+[20:33:35]       sscanf plugin loaded.     
+
+[20:33:35]          Version:  2.8.2        
+
+[20:33:35]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:33:35]  ===============================
+
+[20:33:35]   Loaded.
+[20:33:35]  Loaded 1 plugins.
+
+[20:33:35] 
+[20:33:35] Filterscripts
+[20:33:35] ---------------
+[20:33:35]   Loaded 0 filterscripts.
+
+[20:33:35]  
+[20:33:35]  
+[20:33:35]  
+[20:33:35]  ======================================= 
+[20:33:35]  |                                     | 
+[20:33:35]  |        YSI version 4.00.0001        | 
+[20:33:35]  |        By Alex "Y_Less" Cole        | 
+[20:33:35]  |                                     | 
+[20:33:35]  ======================================= 
+[20:33:35]  
+[20:33:35] [connection] 192.168.0.178:57643 requests connection cookie.
+[20:33:35] 
+---------------------------------------
+[20:33:35] Running DOGFIGHT - By Anteino
+
+[20:33:35] ---------------------------------------
+
+[20:33:35] Number of vehicle models: 0
+[20:33:36] [connection] incoming connection: 192.168.0.178:57643 id: 0
+[20:33:36] [join] Anteino has joined the server (0:192.168.0.178)
+[20:33:37] [connection] 192.168.0.140:63141 requests connection cookie.
+[20:33:38] [connection] incoming connection: 192.168.0.140:63141 id: 1
+[20:33:38] [join] Henkie has joined the server (1:192.168.0.140)
+[20:33:42] RCON (In-Game): Player #1 (Henkie) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:37:23] filterscripts = ""  (string)
+[20:37:23] 
+[20:37:23] Server Plugins
+[20:37:23] --------------
+[20:37:23]  Loading plugin: sscanf
+[20:37:23] 
+
+[20:37:23]  ===============================
+
+[20:37:23]       sscanf plugin loaded.     
+
+[20:37:23]          Version:  2.8.2        
+
+[20:37:23]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:37:23]  ===============================
+
+[20:37:23]   Loaded.
+[20:37:23]  Loaded 1 plugins.
+
+[20:37:24] 
+[20:37:24] Filterscripts
+[20:37:24] ---------------
+[20:37:24]   Loaded 0 filterscripts.
+
+[20:37:24]  
+[20:37:24]  
+[20:37:24]  
+[20:37:24]  ======================================= 
+[20:37:24]  |                                     | 
+[20:37:24]  |        YSI version 4.00.0001        | 
+[20:37:24]  |        By Alex "Y_Less" Cole        | 
+[20:37:24]  |                                     | 
+[20:37:24]  ======================================= 
+[20:37:24]  
+[20:37:24] 
+---------------------------------------
+[20:37:24] Running DOGFIGHT - By Anteino
+
+[20:37:24] ---------------------------------------
+
+[20:37:24] Number of vehicle models: 0
+[20:37:37] [connection] 192.168.0.178:60063 requests connection cookie.
+[20:37:38] [connection] incoming connection: 192.168.0.178:60063 id: 0
+[20:37:38] [join] Anteino has joined the server (0:192.168.0.178)
+[20:37:42] [connection] 192.168.0.140:59765 requests connection cookie.
+[20:37:43] [connection] incoming connection: 192.168.0.140:59765 id: 1
+[20:37:43] [join] Henkie has joined the server (1:192.168.0.140)
+[20:37:47] RCON (In-Game): Player #1 (Henkie) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:41:22] filterscripts = ""  (string)
+[20:41:22] 
+[20:41:22] Server Plugins
+[20:41:22] --------------
+[20:41:22]  Loading plugin: sscanf
+[20:41:22] 
+
+[20:41:22]  ===============================
+
+[20:41:22]       sscanf plugin loaded.     
+
+[20:41:22]          Version:  2.8.2        
+
+[20:41:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:41:22]  ===============================
+
+[20:41:22]   Loaded.
+[20:41:22]  Loaded 1 plugins.
+
+[20:41:22] 
+[20:41:22] Filterscripts
+[20:41:22] ---------------
+[20:41:22]   Loaded 0 filterscripts.
+
+[20:41:22]  
+[20:41:22]  
+[20:41:22]  
+[20:41:22]  ======================================= 
+[20:41:22]  |                                     | 
+[20:41:22]  |        YSI version 4.00.0001        | 
+[20:41:22]  |        By Alex "Y_Less" Cole        | 
+[20:41:22]  |                                     | 
+[20:41:22]  ======================================= 
+[20:41:22]  
+[20:41:22] 
+---------------------------------------
+[20:41:22] Running DOGFIGHT - By Anteino
+
+[20:41:22] ---------------------------------------
+
+[20:41:22] Number of vehicle models: 0
+[20:41:22] [connection] 192.168.0.178:63971 requests connection cookie.
+[20:41:23] [connection] incoming connection: 192.168.0.178:63971 id: 0
+[20:41:23] [join] Anteino has joined the server (0:192.168.0.178)
+[20:41:24] [connection] 192.168.0.140:52862 requests connection cookie.
+[20:41:25] [connection] incoming connection: 192.168.0.140:52862 id: 1
+[20:41:25] [join] Henkie has joined the server (1:192.168.0.140)
+[20:41:34] RCON (In-Game): Player #1 (Henkie) has logged in.
+[20:42:28] [part] Henkie has left the server (1:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:44:35] filterscripts = ""  (string)
+[20:44:35] 
+[20:44:35] Server Plugins
+[20:44:35] --------------
+[20:44:35]  Loading plugin: sscanf
+[20:44:35] 
+
+[20:44:35]  ===============================
+
+[20:44:35]       sscanf plugin loaded.     
+
+[20:44:35]          Version:  2.8.2        
+
+[20:44:35]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:44:35]  ===============================
+
+[20:44:35]   Loaded.
+[20:44:35]  Loaded 1 plugins.
+
+[20:44:35] 
+[20:44:35] Filterscripts
+[20:44:35] ---------------
+[20:44:35]   Loaded 0 filterscripts.
+
+[20:44:35]  
+[20:44:35]  
+[20:44:35]  
+[20:44:35]  ======================================= 
+[20:44:35]  |                                     | 
+[20:44:35]  |        YSI version 4.00.0001        | 
+[20:44:35]  |        By Alex "Y_Less" Cole        | 
+[20:44:35]  |                                     | 
+[20:44:35]  ======================================= 
+[20:44:35]  
+[20:44:36] 
+---------------------------------------
+[20:44:36] Running DOGFIGHT - By Anteino
+
+[20:44:36] ---------------------------------------
+
+[20:44:36] Number of vehicle models: 0
+[20:44:36] [connection] 192.168.0.178:60282 requests connection cookie.
+[20:44:37] [connection] incoming connection: 192.168.0.178:60283 id: 0
+[20:44:37] [join] Anteino has joined the server (0:192.168.0.178)
+[20:44:53] [connection] 192.168.0.140:59728 requests connection cookie.
+[20:44:54] [connection] incoming connection: 192.168.0.140:59728 id: 1
+[20:45:00] [part] Anteino has left the server (0:1)
+[20:45:20] [connection] 192.168.0.140:53911 requests connection cookie.
+[20:45:21] [connection] incoming connection: 192.168.0.140:53911 id: 0
+[20:45:22] [join] Anteino has joined the server (0:192.168.0.140)
+[20:45:31] RCON (In-Game): Player #0 (Anteino) has logged in.
+[20:45:32] [connection] 192.168.0.178:65034 requests connection cookie.
+[20:45:33] [connection] incoming connection: 192.168.0.178:65034 id: 1
+[20:45:33] [join] Henkie has joined the server (1:192.168.0.178)
+[20:46:10] RCON (In-Game): Player [Anteino] sent command: login psk
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:47:14] filterscripts = ""  (string)
+[20:47:14] 
+[20:47:14] Server Plugins
+[20:47:14] --------------
+[20:47:14]  Loading plugin: sscanf
+[20:47:14] 
+
+[20:47:14]  ===============================
+
+[20:47:14]       sscanf plugin loaded.     
+
+[20:47:14]          Version:  2.8.2        
+
+[20:47:14]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:47:14]  ===============================
+
+[20:47:14]   Loaded.
+[20:47:14]  Loaded 1 plugins.
+
+[20:47:14] 
+[20:47:14] Filterscripts
+[20:47:14] ---------------
+[20:47:14]   Loaded 0 filterscripts.
+
+[20:47:14]  
+[20:47:14]  
+[20:47:14]  
+[20:47:14]  ======================================= 
+[20:47:14]  |                                     | 
+[20:47:14]  |        YSI version 4.00.0001        | 
+[20:47:14]  |        By Alex "Y_Less" Cole        | 
+[20:47:14]  |                                     | 
+[20:47:14]  ======================================= 
+[20:47:14]  
+[20:47:14] 
+---------------------------------------
+[20:47:14] Running DOGFIGHT - By Anteino
+
+[20:47:14] ---------------------------------------
+
+[20:47:14] Number of vehicle models: 0
+[20:47:14] [connection] 192.168.0.178:56141 requests connection cookie.
+[20:47:15] [connection] 192.168.0.140:63506 requests connection cookie.
+[20:47:15] [connection] incoming connection: 192.168.0.178:56142 id: 0
+[20:47:15] [join] Henkie has joined the server (0:192.168.0.178)
+[20:47:16] [connection] incoming connection: 192.168.0.140:63506 id: 1
+[20:47:16] [join] Anteino has joined the server (1:192.168.0.140)
+[20:47:21] RCON (In-Game): Player #1 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:48:45] filterscripts = ""  (string)
+[20:48:45] 
+[20:48:45] Server Plugins
+[20:48:45] --------------
+[20:48:45]  Loading plugin: sscanf
+[20:48:45] 
+
+[20:48:45]  ===============================
+
+[20:48:45]       sscanf plugin loaded.     
+
+[20:48:45]          Version:  2.8.2        
+
+[20:48:45]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:48:45]  ===============================
+
+[20:48:45]   Loaded.
+[20:48:45]  Loaded 1 plugins.
+
+[20:48:45] 
+[20:48:45] Filterscripts
+[20:48:45] ---------------
+[20:48:45]   Loaded 0 filterscripts.
+
+[20:48:45]  
+[20:48:45]  
+[20:48:45]  
+[20:48:45]  ======================================= 
+[20:48:45]  |                                     | 
+[20:48:45]  |        YSI version 4.00.0001        | 
+[20:48:45]  |        By Alex "Y_Less" Cole        | 
+[20:48:45]  |                                     | 
+[20:48:45]  ======================================= 
+[20:48:45]  
+[20:48:45] 
+---------------------------------------
+[20:48:45] Running DOGFIGHT - By Anteino
+
+[20:48:45] ---------------------------------------
+
+[20:48:45] Number of vehicle models: 0
+[20:48:45] [connection] 192.168.0.178:56146 requests connection cookie.
+[20:48:46] [connection] incoming connection: 192.168.0.178:56146 id: 0
+[20:48:46] [join] Henkie has joined the server (0:192.168.0.178)
+[20:48:46] [connection] 192.168.0.140:50294 requests connection cookie.
+[20:48:47] [connection] incoming connection: 192.168.0.140:50294 id: 1
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:48:50] filterscripts = ""  (string)
+[20:48:50] 
+[20:48:50] Server Plugins
+[20:48:50] --------------
+[20:48:50]  Loading plugin: sscanf
+[20:48:50] 
+
+[20:48:50]  ===============================
+
+[20:48:50]       sscanf plugin loaded.     
+
+[20:48:50]          Version:  2.8.2        
+
+[20:48:50]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:48:50]  ===============================
+
+[20:48:50]   Loaded.
+[20:48:50]  Loaded 1 plugins.
+
+[20:48:50] 
+[20:48:50] Filterscripts
+[20:48:50] ---------------
+[20:48:50]   Loaded 0 filterscripts.
+
+[20:48:50]  
+[20:48:50]  
+[20:48:50]  
+[20:48:50]  ======================================= 
+[20:48:50]  |                                     | 
+[20:48:50]  |        YSI version 4.00.0001        | 
+[20:48:50]  |        By Alex "Y_Less" Cole        | 
+[20:48:50]  |                                     | 
+[20:48:50]  ======================================= 
+[20:48:50]  
+[20:48:50] 
+---------------------------------------
+[20:48:50] Running DOGFIGHT - By Anteino
+
+[20:48:50] ---------------------------------------
+
+[20:48:50] Number of vehicle models: 0
+[20:48:58] [connection] 192.168.0.140:50296 requests connection cookie.
+[20:48:59] [connection] incoming connection: 192.168.0.140:50296 id: 0
+[20:48:59] [join] Anteino has joined the server (0:192.168.0.140)
+[20:49:00] RCON (In-Game): Player #0 (Anteino) has logged in.
+[20:49:01] [connection] 192.168.0.178:56147 requests connection cookie.
+[20:49:02] [connection] incoming connection: 192.168.0.178:56147 id: 1
+[20:49:03] [join] Henkie has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:51:11] filterscripts = ""  (string)
+[20:51:11] 
+[20:51:11] Server Plugins
+[20:51:11] --------------
+[20:51:11]  Loading plugin: sscanf
+[20:51:11] 
+
+[20:51:11]  ===============================
+
+[20:51:11]       sscanf plugin loaded.     
+
+[20:51:11]          Version:  2.8.2        
+
+[20:51:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:51:11]  ===============================
+
+[20:51:11]   Loaded.
+[20:51:11]  Loaded 1 plugins.
+
+[20:51:11] 
+[20:51:11] Filterscripts
+[20:51:11] ---------------
+[20:51:11]   Loaded 0 filterscripts.
+
+[20:51:11]  
+[20:51:11]  
+[20:51:11]  
+[20:51:11]  ======================================= 
+[20:51:11]  |                                     | 
+[20:51:11]  |        YSI version 4.00.0001        | 
+[20:51:11]  |        By Alex "Y_Less" Cole        | 
+[20:51:11]  |                                     | 
+[20:51:11]  ======================================= 
+[20:51:11]  
+[20:51:11] 
+---------------------------------------
+[20:51:11] Running DOGFIGHT - By Anteino
+
+[20:51:11] ---------------------------------------
+
+[20:51:11] Number of vehicle models: 0
+[20:51:11] [connection] 192.168.0.178:58110 requests connection cookie.
+[20:51:12] [connection] 192.168.0.140:49266 requests connection cookie.
+[20:51:12] [connection] incoming connection: 192.168.0.178:58111 id: 0
+[20:51:13] [join] Henkie has joined the server (0:192.168.0.178)
+[20:51:13] [connection] incoming connection: 192.168.0.140:49266 id: 1
+[20:51:13] [join] Anteino has joined the server (1:192.168.0.140)
+[20:51:18] RCON (In-Game): Player #1 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:53:29] filterscripts = ""  (string)
+[20:53:29] 
+[20:53:29] Server Plugins
+[20:53:29] --------------
+[20:53:29]  Loading plugin: sscanf
+[20:53:29] 
+
+[20:53:29]  ===============================
+
+[20:53:29]       sscanf plugin loaded.     
+
+[20:53:29]          Version:  2.8.2        
+
+[20:53:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:53:29]  ===============================
+
+[20:53:29]   Loaded.
+[20:53:29]  Loaded 1 plugins.
+
+[20:53:29] 
+[20:53:29] Filterscripts
+[20:53:29] ---------------
+[20:53:29]   Loaded 0 filterscripts.
+
+[20:53:29]  
+[20:53:29]  
+[20:53:29]  
+[20:53:29]  ======================================= 
+[20:53:29]  |                                     | 
+[20:53:29]  |        YSI version 4.00.0001        | 
+[20:53:29]  |        By Alex "Y_Less" Cole        | 
+[20:53:29]  |                                     | 
+[20:53:29]  ======================================= 
+[20:53:29]  
+[20:53:30] 
+---------------------------------------
+[20:53:30] Running DOGFIGHT - By Anteino
+
+[20:53:30] ---------------------------------------
+
+[20:53:30] Number of vehicle models: 0
+[20:53:30] [connection] 192.168.0.178:58940 requests connection cookie.
+[20:53:31] [connection] 192.168.0.140:50329 requests connection cookie.
+[20:53:31] [connection] incoming connection: 192.168.0.178:58940 id: 0
+[20:53:32] [join] Henkie has joined the server (0:192.168.0.178)
+[20:53:32] [connection] incoming connection: 192.168.0.140:50329 id: 1
+[20:53:32] [join] Anteino has joined the server (1:192.168.0.140)
+[20:53:33] RCON (In-Game): Player #1 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:54:21] filterscripts = ""  (string)
+[20:54:21] 
+[20:54:21] Server Plugins
+[20:54:21] --------------
+[20:54:21]  Loading plugin: sscanf
+[20:54:21] 
+
+[20:54:21]  ===============================
+
+[20:54:21]       sscanf plugin loaded.     
+
+[20:54:21]          Version:  2.8.2        
+
+[20:54:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:54:21]  ===============================
+
+[20:54:21]   Loaded.
+[20:54:21]  Loaded 1 plugins.
+
+[20:54:21] 
+[20:54:21] Filterscripts
+[20:54:21] ---------------
+[20:54:21]   Loaded 0 filterscripts.
+
+[20:54:21]  
+[20:54:21]  
+[20:54:21]  
+[20:54:21]  ======================================= 
+[20:54:21]  |                                     | 
+[20:54:21]  |        YSI version 4.00.0001        | 
+[20:54:21]  |        By Alex "Y_Less" Cole        | 
+[20:54:21]  |                                     | 
+[20:54:21]  ======================================= 
+[20:54:21]  
+[20:54:21] 
+---------------------------------------
+[20:54:21] Running DOGFIGHT - By Anteino
+
+[20:54:21] ---------------------------------------
+
+[20:54:21] Number of vehicle models: 0
+[20:54:22] [connection] 192.168.0.178:60655 requests connection cookie.
+[20:54:23] [connection] 192.168.0.140:55637 requests connection cookie.
+[20:54:23] [connection] incoming connection: 192.168.0.178:60655 id: 0
+[20:54:23] [join] Henkie has joined the server (0:192.168.0.178)
+[20:54:24] [connection] incoming connection: 192.168.0.140:55637 id: 1
+[20:54:24] [join] Anteino has joined the server (1:192.168.0.140)
+[20:54:24] RCON (In-Game): Player #1 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:55:11] filterscripts = ""  (string)
+[20:55:11] 
+[20:55:11] Server Plugins
+[20:55:11] --------------
+[20:55:11]  Loading plugin: sscanf
+[20:55:11] 
+
+[20:55:11]  ===============================
+
+[20:55:11]       sscanf plugin loaded.     
+
+[20:55:11]          Version:  2.8.2        
+
+[20:55:11]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:55:11]  ===============================
+
+[20:55:11]   Loaded.
+[20:55:11]  Loaded 1 plugins.
+
+[20:55:11] 
+[20:55:11] Filterscripts
+[20:55:11] ---------------
+[20:55:11]   Loaded 0 filterscripts.
+
+[20:55:11]  
+[20:55:11]  
+[20:55:11]  
+[20:55:11]  ======================================= 
+[20:55:11]  |                                     | 
+[20:55:11]  |        YSI version 4.00.0001        | 
+[20:55:11]  |        By Alex "Y_Less" Cole        | 
+[20:55:11]  |                                     | 
+[20:55:11]  ======================================= 
+[20:55:11]  
+[20:55:11] 
+---------------------------------------
+[20:55:11] Running DOGFIGHT - By Anteino
+
+[20:55:11] ---------------------------------------
+
+[20:55:11] Number of vehicle models: 0
+[20:55:12] [connection] 192.168.0.178:60656 requests connection cookie.
+[20:55:12] [connection] 192.168.0.140:62142 requests connection cookie.
+[20:55:13] [connection] incoming connection: 192.168.0.178:60656 id: 0
+[20:55:13] [connection] incoming connection: 192.168.0.140:62142 id: 0
+[20:55:14] [join] Anteino has joined the server (0:192.168.0.140)
+[20:55:18] RCON (In-Game): Player #0 (Anteino) has logged in.
+[20:55:23] [connection] incoming connection: 192.168.0.178:60657 id: 1
+[20:55:33] [connection] incoming connection: 192.168.0.178:60658 id: 1
+[20:55:43] [connection] incoming connection: 192.168.0.178:60660 id: 1
+[20:55:53] [connection] incoming connection: 192.168.0.178:60661 id: 1
+[20:55:54] [join] Henkie has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:58:22] filterscripts = ""  (string)
+[20:58:22] 
+[20:58:22] Server Plugins
+[20:58:22] --------------
+[20:58:22]  Loading plugin: sscanf
+[20:58:22] 
+
+[20:58:22]  ===============================
+
+[20:58:22]       sscanf plugin loaded.     
+
+[20:58:22]          Version:  2.8.2        
+
+[20:58:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:58:22]  ===============================
+
+[20:58:22]   Loaded.
+[20:58:22]  Loaded 1 plugins.
+
+[20:58:22] 
+[20:58:22] Filterscripts
+[20:58:22] ---------------
+[20:58:22]   Loaded 0 filterscripts.
+
+[20:58:22]  
+[20:58:22]  
+[20:58:22]  
+[20:58:22]  ======================================= 
+[20:58:22]  |                                     | 
+[20:58:22]  |        YSI version 4.00.0001        | 
+[20:58:22]  |        By Alex "Y_Less" Cole        | 
+[20:58:22]  |                                     | 
+[20:58:22]  ======================================= 
+[20:58:22]  
+[20:58:22] 
+---------------------------------------
+[20:58:22] Running DOGFIGHT - By Anteino
+
+[20:58:22] ---------------------------------------
+
+[20:58:22] Number of vehicle models: 0
+[20:58:24] [connection] 192.168.0.178:50000 requests connection cookie.
+[20:58:25] [connection] incoming connection: 192.168.0.178:50000 id: 0
+[20:58:25] [join] Henkie has joined the server (0:192.168.0.178)
+[20:58:30] [connection] 192.168.0.140:63479 requests connection cookie.
+[20:58:31] [connection] incoming connection: 192.168.0.140:63479 id: 1
+[20:58:31] [join] Anteino has joined the server (1:192.168.0.140)
+[20:58:32] RCON (In-Game): Player #1 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[20:59:22] filterscripts = ""  (string)
+[20:59:22] 
+[20:59:22] Server Plugins
+[20:59:22] --------------
+[20:59:22]  Loading plugin: sscanf
+[20:59:22] 
+
+[20:59:22]  ===============================
+
+[20:59:22]       sscanf plugin loaded.     
+
+[20:59:22]          Version:  2.8.2        
+
+[20:59:22]    (c) 2012 Alex "Y_Less" Cole  
+
+[20:59:22]  ===============================
+
+[20:59:22]   Loaded.
+[20:59:22]  Loaded 1 plugins.
+
+[20:59:22] 
+[20:59:22] Filterscripts
+[20:59:22] ---------------
+[20:59:22]   Loaded 0 filterscripts.
+
+[20:59:22]  
+[20:59:22]  
+[20:59:22]  
+[20:59:22]  ======================================= 
+[20:59:22]  |                                     | 
+[20:59:22]  |        YSI version 4.00.0001        | 
+[20:59:22]  |        By Alex "Y_Less" Cole        | 
+[20:59:22]  |                                     | 
+[20:59:22]  ======================================= 
+[20:59:22]  
+[20:59:22] 
+---------------------------------------
+[20:59:22] Running DOGFIGHT - By Anteino
+
+[20:59:22] ---------------------------------------
+
+[20:59:22] Number of vehicle models: 0
+[20:59:38] [connection] 192.168.0.140:55218 requests connection cookie.
+[20:59:39] [connection] incoming connection: 192.168.0.140:55218 id: 0
+[20:59:39] [join] Anteino has joined the server (0:192.168.0.140)
+[20:59:40] RCON (In-Game): Player #0 (Anteino) has logged in.
+[20:59:41] [connection] 192.168.0.178:64522 requests connection cookie.
+[20:59:42] [connection] incoming connection: 192.168.0.178:64522 id: 1
+[20:59:42] [join] Henkie has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:00:37] filterscripts = ""  (string)
+[21:00:37] 
+[21:00:37] Server Plugins
+[21:00:37] --------------
+[21:00:37]  Loading plugin: sscanf
+[21:00:37] 
+
+[21:00:37]  ===============================
+
+[21:00:37]       sscanf plugin loaded.     
+
+[21:00:37]          Version:  2.8.2        
+
+[21:00:37]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:00:37]  ===============================
+
+[21:00:37]   Loaded.
+[21:00:37]  Loaded 1 plugins.
+
+[21:00:37] 
+[21:00:37] Filterscripts
+[21:00:37] ---------------
+[21:00:37]   Loaded 0 filterscripts.
+
+[21:00:37]  
+[21:00:37]  
+[21:00:37]  
+[21:00:37]  ======================================= 
+[21:00:37]  |                                     | 
+[21:00:37]  |        YSI version 4.00.0001        | 
+[21:00:37]  |        By Alex "Y_Less" Cole        | 
+[21:00:37]  |                                     | 
+[21:00:37]  ======================================= 
+[21:00:37]  
+[21:00:37] 
+---------------------------------------
+[21:00:37] Running DOGFIGHT - By Anteino
+
+[21:00:37] ---------------------------------------
+
+[21:00:37] Number of vehicle models: 0
+[21:00:37] [connection] 192.168.0.178:64524 requests connection cookie.
+[21:00:38] [connection] incoming connection: 192.168.0.178:64524 id: 0
+[21:00:39] [join] Henkie has joined the server (0:192.168.0.178)
+[21:00:39] [connection] 192.168.0.140:51751 requests connection cookie.
+[21:00:40] [connection] incoming connection: 192.168.0.140:51751 id: 1
+[21:00:40] [join] Anteino has joined the server (1:192.168.0.140)
+[21:00:44] RCON (In-Game): Player #1 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:01:29] filterscripts = ""  (string)
+[21:01:29] 
+[21:01:29] Server Plugins
+[21:01:29] --------------
+[21:01:29]  Loading plugin: sscanf
+[21:01:29] 
+
+[21:01:29]  ===============================
+
+[21:01:29]       sscanf plugin loaded.     
+
+[21:01:29]          Version:  2.8.2        
+
+[21:01:29]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:01:29]  ===============================
+
+[21:01:29]   Loaded.
+[21:01:29]  Loaded 1 plugins.
+
+[21:01:29] 
+[21:01:29] Filterscripts
+[21:01:29] ---------------
+[21:01:29]   Loaded 0 filterscripts.
+
+[21:01:29]  
+[21:01:29]  
+[21:01:29]  
+[21:01:29]  ======================================= 
+[21:01:29]  |                                     | 
+[21:01:29]  |        YSI version 4.00.0001        | 
+[21:01:29]  |        By Alex "Y_Less" Cole        | 
+[21:01:29]  |                                     | 
+[21:01:29]  ======================================= 
+[21:01:29]  
+[21:01:30] 
+---------------------------------------
+[21:01:30] Running DOGFIGHT - By Anteino
+
+[21:01:30] ---------------------------------------
+
+[21:01:30] Number of vehicle models: 0
+[21:01:30] [connection] 192.168.0.178:58968 requests connection cookie.
+[21:01:31] [connection] 192.168.0.140:50265 requests connection cookie.
+[21:01:31] [connection] incoming connection: 192.168.0.178:58968 id: 0
+[21:01:31] [join] Henkie has joined the server (0:192.168.0.178)
+[21:01:32] [connection] incoming connection: 192.168.0.140:50265 id: 1
+[21:01:32] [join] Anteino has joined the server (1:192.168.0.140)
+[21:01:32] RCON (In-Game): Player #1 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:02:16] filterscripts = ""  (string)
+[21:02:16] 
+[21:02:16] Server Plugins
+[21:02:16] --------------
+[21:02:16]  Loading plugin: sscanf
+[21:02:16] 
+
+[21:02:16]  ===============================
+
+[21:02:16]       sscanf plugin loaded.     
+
+[21:02:16]          Version:  2.8.2        
+
+[21:02:16]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:02:16]  ===============================
+
+[21:02:16]   Loaded.
+[21:02:16]  Loaded 1 plugins.
+
+[21:02:16] 
+[21:02:16] Filterscripts
+[21:02:16] ---------------
+[21:02:16]   Loaded 0 filterscripts.
+
+[21:02:16]  
+[21:02:16]  
+[21:02:16]  
+[21:02:16]  ======================================= 
+[21:02:16]  |                                     | 
+[21:02:16]  |        YSI version 4.00.0001        | 
+[21:02:16]  |        By Alex "Y_Less" Cole        | 
+[21:02:16]  |                                     | 
+[21:02:16]  ======================================= 
+[21:02:16]  
+[21:02:17] 
+---------------------------------------
+[21:02:17] Running DOGFIGHT - By Anteino
+
+[21:02:17] ---------------------------------------
+
+[21:02:17] Number of vehicle models: 0
+[21:02:22] [connection] 192.168.0.140:49190 requests connection cookie.
+[21:02:23] [connection] incoming connection: 192.168.0.140:49190 id: 0
+[21:02:23] [join] Anteino has joined the server (0:192.168.0.140)
+[21:02:25] RCON (In-Game): Player #0 (Anteino) has logged in.
+[21:02:32] [connection] 192.168.0.178:59027 requests connection cookie.
+[21:02:33] [connection] incoming connection: 192.168.0.178:59027 id: 1
+[21:02:33] [join] Henkie has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:10:21] filterscripts = ""  (string)
+[21:10:21] 
+[21:10:21] Server Plugins
+[21:10:21] --------------
+[21:10:21]  Loading plugin: sscanf
+[21:10:21] 
+
+[21:10:21]  ===============================
+
+[21:10:21]       sscanf plugin loaded.     
+
+[21:10:21]          Version:  2.8.2        
+
+[21:10:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:10:21]  ===============================
+
+[21:10:21]   Loaded.
+[21:10:21]  Loaded 1 plugins.
+
+[21:10:21] 
+[21:10:21] Filterscripts
+[21:10:21] ---------------
+[21:10:21]   Loaded 0 filterscripts.
+
+[21:10:21]  
+[21:10:21]  
+[21:10:21]  
+[21:10:21]  ======================================= 
+[21:10:21]  |                                     | 
+[21:10:21]  |        YSI version 4.00.0001        | 
+[21:10:21]  |        By Alex "Y_Less" Cole        | 
+[21:10:21]  |                                     | 
+[21:10:21]  ======================================= 
+[21:10:21]  
+[21:10:21] 
+---------------------------------------
+[21:10:21] Running DOGFIGHT - By Anteino
+
+[21:10:21] ---------------------------------------
+
+[21:10:21] Number of vehicle models: 0
+[21:10:29] [connection] 192.168.0.140:55682 requests connection cookie.
+[21:10:30] [connection] incoming connection: 192.168.0.140:55682 id: 0
+[21:10:30] [join] Anteino has joined the server (0:192.168.0.140)
+[21:10:31] RCON (In-Game): Player #0 (Anteino) has logged in.
+[21:10:33] [connection] 192.168.0.178:59147 requests connection cookie.
+[21:10:34] [connection] incoming connection: 192.168.0.178:59147 id: 1
+[21:10:35] [join] Henkie has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:11:47] filterscripts = ""  (string)
+[21:11:47] 
+[21:11:47] Server Plugins
+[21:11:47] --------------
+[21:11:47]  Loading plugin: sscanf
+[21:11:47] 
+
+[21:11:47]  ===============================
+
+[21:11:47]       sscanf plugin loaded.     
+
+[21:11:47]          Version:  2.8.2        
+
+[21:11:47]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:11:47]  ===============================
+
+[21:11:47]   Loaded.
+[21:11:47]  Loaded 1 plugins.
+
+[21:11:47] 
+[21:11:47] Filterscripts
+[21:11:47] ---------------
+[21:11:47]   Loaded 0 filterscripts.
+
+[21:11:47]  
+[21:11:47]  
+[21:11:47]  
+[21:11:47]  ======================================= 
+[21:11:47]  |                                     | 
+[21:11:47]  |        YSI version 4.00.0001        | 
+[21:11:47]  |        By Alex "Y_Less" Cole        | 
+[21:11:47]  |                                     | 
+[21:11:47]  ======================================= 
+[21:11:47]  
+[21:11:47] 
+---------------------------------------
+[21:11:47] Running DOGFIGHT - By Anteino
+
+[21:11:47] ---------------------------------------
+
+[21:11:47] Number of vehicle models: 0
+[21:12:00] [connection] 192.168.0.140:52673 requests connection cookie.
+[21:12:01] [connection] incoming connection: 192.168.0.140:52673 id: 0
+[21:12:02] [join] Anteino has joined the server (0:192.168.0.140)
+[21:12:02] RCON (In-Game): Player #0 (Anteino) has logged in.
+[21:12:05] [connection] 192.168.0.178:57577 requests connection cookie.
+[21:12:06] [connection] incoming connection: 192.168.0.178:57577 id: 1
+[21:12:06] [join] Henkie has joined the server (1:192.168.0.178)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:14:36] filterscripts = ""  (string)
+[21:14:36] 
+[21:14:36] Server Plugins
+[21:14:36] --------------
+[21:14:36]  Loading plugin: sscanf
+[21:14:36] 
+
+[21:14:36]  ===============================
+
+[21:14:36]       sscanf plugin loaded.     
+
+[21:14:36]          Version:  2.8.2        
+
+[21:14:36]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:14:36]  ===============================
+
+[21:14:36]   Loaded.
+[21:14:36]  Loaded 1 plugins.
+
+[21:14:36] 
+[21:14:36] Filterscripts
+[21:14:36] ---------------
+[21:14:36]   Loaded 0 filterscripts.
+
+[21:14:36]  
+[21:14:36]  
+[21:14:36]  
+[21:14:36]  ======================================= 
+[21:14:36]  |                                     | 
+[21:14:36]  |        YSI version 4.00.0001        | 
+[21:14:36]  |        By Alex "Y_Less" Cole        | 
+[21:14:36]  |                                     | 
+[21:14:36]  ======================================= 
+[21:14:36]  
+[21:14:36] 
+---------------------------------------
+[21:14:36] Running DOGFIGHT - By Anteino
+
+[21:14:36] ---------------------------------------
+
+[21:14:36] Number of vehicle models: 0
+[21:14:37] [connection] 192.168.0.178:61975 requests connection cookie.
+[21:14:38] [connection] incoming connection: 192.168.0.178:61975 id: 0
+[21:14:38] [connection] 192.168.0.140:57870 requests connection cookie.
+[21:14:39] [connection] incoming connection: 192.168.0.140:57870 id: 0
+[21:14:39] [join] Anteino has joined the server (0:192.168.0.140)
+[21:14:41] RCON (In-Game): Player #0 (Anteino) has logged in.
+[21:14:48] [connection] incoming connection: 192.168.0.178:61976 id: 1
+[21:17:14] [part] Anteino has left the server (0:1)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:23:21] filterscripts = ""  (string)
+[21:23:21] 
+[21:23:21] Server Plugins
+[21:23:21] --------------
+[21:23:21]  Loading plugin: sscanf
+[21:23:21] 
+
+[21:23:21]  ===============================
+
+[21:23:21]       sscanf plugin loaded.     
+
+[21:23:21]          Version:  2.8.2        
+
+[21:23:21]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:23:21]  ===============================
+
+[21:23:21]   Loaded.
+[21:23:21]  Loaded 1 plugins.
+
+[21:23:21] 
+[21:23:21] Filterscripts
+[21:23:21] ---------------
+[21:23:21]   Loaded 0 filterscripts.
+
+[21:23:21]  
+[21:23:21]  
+[21:23:21]  
+[21:23:21]  ======================================= 
+[21:23:21]  |                                     | 
+[21:23:21]  |        YSI version 4.00.0001        | 
+[21:23:21]  |        By Alex "Y_Less" Cole        | 
+[21:23:21]  |                                     | 
+[21:23:21]  ======================================= 
+[21:23:21]  
+[21:23:21] 
+---------------------------------------
+[21:23:21] Running DOGFIGHT - By Anteino
+
+[21:23:21] ---------------------------------------
+
+[21:23:21] Number of vehicle models: 0
+[21:23:39] [connection] 192.168.0.140:54142 requests connection cookie.
+[21:23:40] [connection] incoming connection: 192.168.0.140:54142 id: 0
+[21:23:40] [join] Anteino has joined the server (0:192.168.0.140)
+[21:23:45] RCON (In-Game): Player #0 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:24:55] filterscripts = ""  (string)
+[21:24:55] 
+[21:24:55] Server Plugins
+[21:24:55] --------------
+[21:24:55]  Loading plugin: sscanf
+[21:24:55] 
+
+[21:24:55]  ===============================
+
+[21:24:55]       sscanf plugin loaded.     
+
+[21:24:55]          Version:  2.8.2        
+
+[21:24:55]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:24:55]  ===============================
+
+[21:24:55]   Loaded.
+[21:24:55]  Loaded 1 plugins.
+
+[21:24:55] 
+[21:24:55] Filterscripts
+[21:24:55] ---------------
+[21:24:55]   Loaded 0 filterscripts.
+
+[21:24:55]  
+[21:24:55]  
+[21:24:55]  
+[21:24:55]  ======================================= 
+[21:24:55]  |                                     | 
+[21:24:55]  |        YSI version 4.00.0001        | 
+[21:24:55]  |        By Alex "Y_Less" Cole        | 
+[21:24:55]  |                                     | 
+[21:24:55]  ======================================= 
+[21:24:55]  
+[21:24:56] 
+---------------------------------------
+[21:24:56] Running DOGFIGHT - By Anteino
+
+[21:24:56] ---------------------------------------
+
+[21:24:56] Number of vehicle models: 0
+[21:24:57] [connection] 192.168.0.140:64556 requests connection cookie.
+[21:24:58] [connection] incoming connection: 192.168.0.140:64556 id: 0
+[21:24:58] [join] Anteino has joined the server (0:192.168.0.140)
+[21:25:00] RCON (In-Game): Player #0 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:25:41] filterscripts = ""  (string)
+[21:25:41] 
+[21:25:41] Server Plugins
+[21:25:41] --------------
+[21:25:41]  Loading plugin: sscanf
+[21:25:41] 
+
+[21:25:41]  ===============================
+
+[21:25:41]       sscanf plugin loaded.     
+
+[21:25:41]          Version:  2.8.2        
+
+[21:25:41]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:25:41]  ===============================
+
+[21:25:41]   Loaded.
+[21:25:41]  Loaded 1 plugins.
+
+[21:25:41] 
+[21:25:41] Filterscripts
+[21:25:41] ---------------
+[21:25:41]   Loaded 0 filterscripts.
+
+[21:25:41]  
+[21:25:41]  
+[21:25:41]  
+[21:25:41]  ======================================= 
+[21:25:41]  |                                     | 
+[21:25:41]  |        YSI version 4.00.0001        | 
+[21:25:41]  |        By Alex "Y_Less" Cole        | 
+[21:25:41]  |                                     | 
+[21:25:41]  ======================================= 
+[21:25:41]  
+[21:25:41] 
+---------------------------------------
+[21:25:41] Running DOGFIGHT - By Anteino
+
+[21:25:41] ---------------------------------------
+
+[21:25:41] Number of vehicle models: 0
+[21:25:53] [connection] 192.168.0.140:53110 requests connection cookie.
+[21:25:54] [connection] incoming connection: 192.168.0.140:53110 id: 0
+[21:25:54] [join] Anteino has joined the server (0:192.168.0.140)
+[21:26:00] RCON (In-Game): Player #0 (Anteino) has logged in.
+[21:26:02] [part] Anteino has left the server (0:1)
+[21:26:06] [connection] 192.168.0.178:50988 requests connection cookie.
+[21:26:07] [connection] incoming connection: 192.168.0.178:50988 id: 0
+[21:26:07] [join] Henkie has joined the server (0:192.168.0.178)
+[21:26:12] RCON (In-Game): Player #0 (Henkie) has logged in.
+[21:26:20] [connection] 192.168.0.140:56821 requests connection cookie.
+[21:26:21] [connection] incoming connection: 192.168.0.140:56821 id: 1
+[21:26:22] [join] Anteino has joined the server (1:192.168.0.140)
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:27:41] filterscripts = ""  (string)
+[21:27:41] 
+[21:27:41] Server Plugins
+[21:27:41] --------------
+[21:27:41]  Loading plugin: sscanf
+[21:27:41] 
+
+[21:27:41]  ===============================
+
+[21:27:41]       sscanf plugin loaded.     
+
+[21:27:41]          Version:  2.8.2        
+
+[21:27:41]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:27:41]  ===============================
+
+[21:27:41]   Loaded.
+[21:27:41]  Loaded 1 plugins.
+
+[21:27:41] 
+[21:27:41] Filterscripts
+[21:27:41] ---------------
+[21:27:41]   Loaded 0 filterscripts.
+
+[21:27:41]  
+[21:27:41]  
+[21:27:41]  
+[21:27:41]  ======================================= 
+[21:27:41]  |                                     | 
+[21:27:41]  |        YSI version 4.00.0001        | 
+[21:27:41]  |        By Alex "Y_Less" Cole        | 
+[21:27:41]  |                                     | 
+[21:27:41]  ======================================= 
+[21:27:41]  
+[21:27:41] 
+---------------------------------------
+[21:27:41] Running DOGFIGHT - By Anteino
+
+[21:27:41] ---------------------------------------
+
+[21:27:41] Number of vehicle models: 0
+[21:27:52] [connection] 192.168.0.140:58516 requests connection cookie.
+[21:27:53] [connection] incoming connection: 192.168.0.140:58516 id: 0
+[21:27:53] [join] Anteino has joined the server (0:192.168.0.140)
+[21:27:59] [connection] 192.168.0.178:50035 requests connection cookie.
+[21:28:00] [connection] incoming connection: 192.168.0.178:50035 id: 1
+[21:28:01] [join] Henkie has joined the server (1:192.168.0.178)
+[21:28:05] RCON (In-Game): Player #0 (Anteino) has logged in.
+
+----------
+Loaded log file: "server_log.txt".
+----------
+
+SA-MP Dedicated Server
+----------------------
+v0.3.7-R2, (C)2005-2015 SA-MP Team
+
+[21:30:17] filterscripts = ""  (string)
+[21:30:17] 
+[21:30:17] Server Plugins
+[21:30:17] --------------
+[21:30:17]  Loading plugin: sscanf
+[21:30:17] 
+
+[21:30:17]  ===============================
+
+[21:30:17]       sscanf plugin loaded.     
+
+[21:30:17]          Version:  2.8.2        
+
+[21:30:17]    (c) 2012 Alex "Y_Less" Cole  
+
+[21:30:17]  ===============================
+
+[21:30:17]   Loaded.
+[21:30:17]  Loaded 1 plugins.
+
+[21:30:17] 
+[21:30:17] Filterscripts
+[21:30:17] ---------------
+[21:30:17]   Loaded 0 filterscripts.
+
+[21:30:17]  
+[21:30:17]  
+[21:30:17]  
+[21:30:17]  ======================================= 
+[21:30:17]  |                                     | 
+[21:30:17]  |        YSI version 4.00.0001        | 
+[21:30:17]  |        By Alex "Y_Less" Cole        | 
+[21:30:17]  |                                     | 
+[21:30:17]  ======================================= 
+[21:30:17]  
+[21:30:17] 
+---------------------------------------
+[21:30:17] Running DOGFIGHT - By Anteino
+
+[21:30:17] ---------------------------------------
+
+[21:30:17] Number of vehicle models: 0
+[21:30:31] [connection] 192.168.0.178:64107 requests connection cookie.
+[21:30:32] [connection] incoming connection: 192.168.0.178:64107 id: 0
+[21:30:32] [join] Henkie has joined the server (0:192.168.0.178)
+[21:30:57] [connection] 192.168.0.140:57310 requests connection cookie.
+[21:30:58] [connection] incoming connection: 192.168.0.140:57310 id: 1
+[21:30:58] [join] Anteino has joined the server (1:192.168.0.140)
+[21:32:33] RCON (In-Game): Player #0 (Henkie) has logged in.
+[21:39:11] RCON (In-Game): Player #1 (Anteino) has logged in.
+[21:40:44] [part] Anteino has left the server (1:1)
