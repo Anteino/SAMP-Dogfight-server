@@ -529,6 +529,10 @@ public OnPlayerDeath(playerid, killerid, reason)
 
 public onVehicleHealthUpdate(playerid, Float:amount)
 {
+	if(amount >= 0.0)
+	{
+		return;
+	}
 	new candidates[MAX_PLAYERS];
 	new Float:dist[MAX_PLAYERS];
 	new Float:xp, Float:yp, Float:zp, Float:xi, Float:yi, Float:zi;

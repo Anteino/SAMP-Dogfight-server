@@ -2221,6 +2221,7 @@
 		<member name="M:operator&gt;=(Float:,Float:)" syntax="operator&gt;=(Float:,Float:)(oper1, oper2)">
 			<tagname value="bool"/>
 			<stacksize value="4"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="isPlayerInSquare"/>
 			<dependency name="floatcmp"/>
 			<param name="oper1">
@@ -2367,7 +2368,7 @@
 			<dependency name="_YCM_g@_"/>
 			<dependency name="getproperty"/>
 			<dependency name="setproperty"/>
-			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="Šq" source="_ALS_go"/>
+			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="(z]" source="_ALS_go"/>
 
 		</member>
 		<member name="M:@_OnScriptInit" syntax="@_OnScriptInit()">
@@ -2657,7 +2658,7 @@
 			<dependency name="_YCM_g@a"/>
 			<dependency name="getproperty"/>
 			<dependency name="setproperty"/>
-			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="€Ÿu" source="_ALS_go"/>
+			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="p a" source="_ALS_go"/>
 
 		</member>
 		<member name="M:@receivepacket" syntax="@receivepacket(packet[], size, source[])">
@@ -7935,12 +7936,12 @@
 		</member>
 		<member name="M:Debug_Disable" syntax="Debug_Disable()">
 			<stacksize value="1"/>
-			<remarks>  Turn off level 0 prints.  </remarks>  <transition target=""/>
+			<remarks>  Turn off level 0 prints.  </remarks>  <transition target="h©Tí"/>
 
 		</member>
 		<member name="M:Debug_Enable" syntax="Debug_Enable()">
 			<stacksize value="1"/>
-			<remarks>  Turn on level 0 prints.  </remarks>  <transition target="ˆ˜hâ"/>
+			<remarks>  Turn on level 0 prints.  </remarks>  <transition target="x¨Tâ"/>
 
 		</member>
 		<member name="M:Debug_Level" syntax="Debug_Level(level)">
@@ -8023,7 +8024,7 @@
 			<stacksize value="1"/>
 			<automaton name="ysi_debug"/>
 			<referrer name="YVers_OnScriptInit"/>
-			<transition keep="true" target="ysi_debug : on" source="ysi_debug : "/>  <remarks>  Mostly exists to define the full range of <c>ysi_debug</c> states.  </remarks> <p/> <transition target="(h×"/>
+			<transition keep="true" target="ysi_debug : on" source="ysi_debug : "/>  <remarks>  Mostly exists to define the full range of <c>ysi_debug</c> states.  </remarks> <p/> <transition target="ð¨T×"/>
 
 		</member>
 		<member name="M:DestroyActor" syntax="DestroyActor(actorid)">
@@ -10258,7 +10259,7 @@
 			<dependency name="existproperty"/>
 			<dependency name="getproperty"/>
 			<dependency name="setproperty"/>
-			<returns>  OnScriptInit  </returns>  <remarks>  Constructor.  Gets the script a master ID.  Now ALWAYS gets an ID, even if  the master system is disabled - doing otherwise is just too complicated.  </remarks>  <transition keep="true" target="_ALS : _ALS_go" />  <transition target="Àxq" source="_ALS_go"/>
+			<returns>  OnScriptInit  </returns>  <remarks>  Constructor.  Gets the script a master ID.  Now ALWAYS gets an ID, even if  the master system is disabled - doing otherwise is just too complicated.  </remarks>  <transition keep="true" target="_ALS : _ALS_go" />  <transition target="0r]" source="_ALS_go"/>
 
 		</member>
 		<member name="M:HookNative" syntax="HookNative(index, address)">
@@ -14413,7 +14414,7 @@
 			<dependency name="Hooks_DoAllHooks"/>
 			<dependency name="Hooks_InvalidateName"/>
 			<dependency name="Hooks_SortReplacements"/>
-			<remarks>  Call the main hook run code, then advance the ALS chain.  </remarks>  <transition keep="true" target="_ALS : _ALS_go"/>  <transition target="{qi"/>
+			<remarks>  Call the main hook run code, then advance the ALS chain.  </remarks>  <transition keep="true" target="_ALS : _ALS_go"/>  <transition target="t]i"/>
 
 		</member>
 		<member name="M:W@" syntax="W@(function[], format[], ...)">
@@ -16835,6 +16836,7 @@
 			<dependency name="operator/(Float:,Float:)"/>
 			<dependency name="operator*(Float:,Float:)"/>
 			<dependency name="operator&gt;(Float:,Float:)"/>
+			<dependency name="operator&gt;=(Float:,Float:)"/>
 			<dependency name="operator&lt;=(Float:,Float:)"/>
 			<dependency name="GetPlayerPos"/>
 			<dependency name="GetPlayerScore"/>
