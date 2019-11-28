@@ -72,6 +72,9 @@
 #define AMOUNT_PICKUP_LOC		20
 #define PICKUP_RANGE			5.0
 
+#define FIRING_VICINITY			200.0		//	If a player fires at another player while further away than this, bullets have no effect
+#define FIRING_ERROR			10.0			//	By how many meters the projected firing vector may be off
+
 //	Pickup types
 #define AMOUNT_PICKUP_TYPES		7
 
@@ -149,6 +152,8 @@ new getPickupId[AMOUNT_PICKUP_TYPES] = {11738, 1650, 1254, 19134, 1242, 1247, 12
 new fightZoneId, marginZoneId, nogoZoneId;
 new visionWeatherType = VISION_WEATHER_TYPE;
 
+new playerFiring[MAX_PLAYERS];
+
 new playerVehicle[MAX_PLAYERS];
 new playerFighting[MAX_PLAYERS];
 new playerShowWarning[MAX_PLAYERS];
@@ -167,6 +172,7 @@ new playerShieldPickupTimer[MAX_PLAYERS];
 new playerSpeedBoostTimer[MAX_PLAYERS];
 
 new Float:playerHealth[MAX_PLAYERS];		//	Used to save the health when the shield pickup is activated
+new Float:oldVehicleHealth[MAX_PLAYERS];
 
 new Float:minHealth;
 
@@ -203,6 +209,10 @@ forward jamRadarExcludingPlayer(playerid);
 forward activatePlayerShield(playerid);
 forward activateHeightPickup(playerid);
 forward activateSpeedBoost(playerid);
+forward refuelPlayerVehicle(playerid);
+forward repairPlayerVehicle(playerid);
+
+forward onVehicleHealthUpdate(playerid, Float:amount);
 
 main()
 {
@@ -328,12 +338,17 @@ public OnPlayerUpdate(playerid)
 		if(GetTickCount() - playerShieldPickupTimer[playerid] >= 0)
 		{
 			GetVehicleHealth(playerVehicle[playerid], health);
-			
 		}
 		else
 		{
 			health = playerHealth[playerid];
 			SetVehicleHealth(playerVehicle[playerid], playerHealth[playerid]);
+		}
+		
+		if(health != oldVehicleHealth[playerid])
+		{
+			onVehicleHealthUpdate(playerid, oldVehicleHealth[playerid] - health);
+			oldVehicleHealth[playerid] = health;
 		}
 		
 		if(health < minHealth)
@@ -386,8 +401,8 @@ public OnPlayerUpdate(playerid)
 			{
 				switch(pickups[i][TYPE])
 				{
-					case PICKUP_HEALTH: RepairVehicle(playerVehicle[playerid]);
-					case PICKUP_FUEL: playerFuel[playerid] = 100.0, playerFuelWarning[playerid] = 0;
+					case PICKUP_HEALTH: repairPlayerVehicle(playerid);
+					case PICKUP_FUEL: refuelPlayerVehicle(playerid);
 					case PICKUP_VISION: blurVisionExcludingPlayer(playerid);
 					case PICKUP_HEIGHT: activateHeightPickup(playerid);
 					case PICKUP_SHIELD: activatePlayerShield(playerid);
@@ -397,6 +412,7 @@ public OnPlayerUpdate(playerid)
 				for(new j = pickups[i][START_ID]; j <= pickups[i][END_ID]; j++)
 				{
 					DestroyPickup(j);
+					
 				}
 				for(new j = i; j < livePickups - 1; j++)
 				{
@@ -482,6 +498,14 @@ public OnPlayerKeyStateChange(playerid, newkeys, oldkeys)
 			SetVehicleVelocity(playerVehicle[playerid], vx, vy, vz);
 			SetCameraBehindPlayer(playerid);
 		}
+		if( (newkeys & KEY_ACTION) && (playerFighting[playerid] == IN_FIGHT) )
+		{
+			playerFiring[playerid] = 1;
+		}
+		else if( (oldkeys & KEY_ACTION) && (playerFighting[playerid] == IN_FIGHT) )
+		{
+			playerFiring[playerid] = 0;
+		}
 	}
 }
 
@@ -493,6 +517,100 @@ public OnPlayerDeath(playerid, killerid, reason)
 		DestroyVehicle(playerVehicle[playerid]);
 	}
    	return 1;
+}
+
+/******************************************************
+*******************************************************
+***                                                 ***
+***        Handling of custom SA-MP callbacks       ***
+***                                                 ***
+*******************************************************
+*******************************************************/
+
+public onVehicleHealthUpdate(playerid, Float:amount)
+{
+	new candidates[MAX_PLAYERS];
+	new Float:dist[MAX_PLAYERS];
+	new Float:xp, Float:yp, Float:zp, Float:xi, Float:yi, Float:zi;
+	new Float:pitch, Float:roll, Float:yaw;
+	
+	GetPlayerPos(playerid, xp, yp, zp);
+	
+	//	First check if other players are in the vicinity of the player taking damage on their vehicle
+	for(new i  = 0; i < MAX_PLAYERS; i++)
+	{
+		if( (playerid != i) && (playerFighting[i] == IN_FIGHT) && (playerFiring[i] == 1) )
+		{
+			GetPlayerPos(i, xi, yi, zi);
+			dist[i] = floatpower(floatpower(xi - xp, 2.0) + floatpower(yi - yp, 2.0) + floatpower(zi - zp, 2.0), 1.0 / 2.0);
+			if(dist[i] <= FIRING_VICINITY)
+			{
+				candidates[i] = 1;
+			}
+			else
+			{
+				candidates[i] = 0;
+			}
+		}
+	}
+	
+	new Float:xyDist, Float:error;
+	
+	//	Now we check for the heading, but we can skip the candidates that were not even in the vicinity of the player taking damage
+	for(new i = 0; i < MAX_PLAYERS; i++)
+	{
+		if(candidates[i] == 1)
+		{
+			GetVehicleRotation(playerVehicle[i], pitch, roll, yaw);
+			#pragma unused roll
+			GetPlayerPos(i, xi, yi, zi);
+			
+			// new Float:dist_ = floatpower(floatpower(xi - xp, 2.0) + floatpower(yi - yp, 2.0) + floatpower(zi - zp, 2.0), 1.0 / 2.0);
+			
+			xyDist = floatabs(dist[i] * floatcos(pitch, degrees));
+			xi -= xyDist * floatsin(yaw, degrees);
+			yi += xyDist * floatcos(yaw, degrees);
+			zi += dist[i] * floatsin(pitch, degrees);
+			
+			error = floatpower(floatpower(xi - xp, 2.0) + floatpower(yi - yp, 2.0) + floatpower(zi - zp, 2.0), 1.0 / 2.0);
+			// if(error > maxError)
+			// {
+				// maxError = error;
+			// }
+			
+			if(error > FIRING_ERROR)
+			{
+				candidates[i] = 0;
+			}
+			
+			// new msg[256];
+			// format(msg, sizeof(msg), "Player %d, is firing at position (%f, %f, %f) at player %d, whose actual position is (%f, %f, %f).", i, xi, yi, zi, playerid, xp, yp, zp);
+			// SendClientMessageToAll(COLOR_WHITE, msg);
+			// format(msg, sizeof(msg), "Error: %f, max error: %f, dist: %f.", error, maxError, dist_);
+			// SendClientMessageToAll(COLOR_WHITE, msg);
+			// format(msg, sizeof(msg), "Yaw: %f, pitch: %f.", yaw, pitch);
+			// SendClientMessageToAll(COLOR_WHITE, msg);
+		}
+	}
+	
+	//	With some smart filtering some more "non-candidates" may be filter out further.
+	//	Now we assign points to all the candidates that are left
+	for(new i = 0; i < MAX_PLAYERS; i++)
+	{
+		if(candidates[i] == 1)
+		{
+			//	Either leave this piece of code intact or add your own score handling algorithm here.
+			SetPlayerScore(i, GetPlayerScore(i) + floatround(amount));
+		}
+	}
+}
+
+stock GetVehicleRotation(vehicleid,&Float:rx,&Float:ry,&Float:rz){
+	new Float:qw,Float:qx,Float:qy,Float:qz;
+	GetVehicleRotationQuat(vehicleid,qw,qx,qy,qz);
+	rx = asin(2*qy*qz-2*qx*qw);
+	ry = -atan2(qx*qz+qy*qw,0.5-qx*qx-qy*qy);
+	rz = -atan2(qx*qy+qz*qw,0.5-qx*qx-qz*qz);
 }
 
 /******************************************************
@@ -605,7 +723,13 @@ YCMD:blur(playerid, params[], help)		//	Mimics a vision blur pickup. Implemented
 {
 	if(IsPlayerAdmin(playerid))
 	{
-		blurVisionExcludingPlayer(playerid);
+		new i = -1;
+		sscanf(params, "d", i);
+		if(i == -1)
+		{
+			i = playerid;
+		}
+		blurVisionExcludingPlayer(i);
 		return 1;
 	}
 	else
@@ -618,7 +742,13 @@ YCMD:jam(playerid, params[], help)
 {
 	if(IsPlayerAdmin(playerid))
 	{
-		jamRadarExcludingPlayer(playerid);
+		new i = -1;
+		sscanf(params, "d", i);
+		if(i == -1)
+		{
+			i = playerid;
+		}
+		jamRadarExcludingPlayer(i);
 		return 1;
 	}
 	else
@@ -631,7 +761,51 @@ YCMD:boost(playerid, params[], help)
 {
 	if(IsPlayerAdmin(playerid))
 	{
-		activateSpeedBoost(playerid);
+		new i = -1;
+		sscanf(params, "d", i);
+		if(i == -1)
+		{
+			i = playerid;
+		}
+		activateSpeedBoost(i);
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
+YCMD:refuel(playerid, params[], help)
+{
+	if(IsPlayerAdmin(playerid))
+	{
+		new i = -1;
+		sscanf(params, "d", i);
+		if(i == -1)
+		{
+			i = playerid;
+		}
+		refuelPlayerVehicle(i);
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}
+
+YCMD:repair(playerid, params[], help)
+{
+	if(IsPlayerAdmin(playerid))
+	{
+		new i = -1;
+		sscanf(params, "d", i);
+		if(i == -1)
+		{
+			i = playerid;
+		}
+		repairPlayerVehicle(i);
 		return 1;
 	}
 	else
@@ -740,6 +914,7 @@ public putPlayerInFight(playerid)
 	playerVehicle[playerid] = CreateVehicle(vehicleType, x, y, FIGHTZONE_MIN_Z, angle, -1, -1, -1);
 	playerTimer[playerid] = GetTickCount();
 	playerFuel[playerid] = 100.0;
+	oldVehicleHealth[playerid] = 1000.0;
 	playerFuelWarning[playerid] = 0;
 	PutPlayerInVehicle(playerid, playerVehicle[playerid], 0);
 	SetCameraBehindPlayer(playerid);
@@ -829,7 +1004,7 @@ public countDownForPlayer(playerid)
 {
 	playerCounter[playerid]--;
 	
-	if(playerCounter[playerid] == 0)
+	if(playerCounter[playerid] <= 0)
 	{
 		GameTextForPlayer(playerid, "~w~Go!", 1000, 3);
 	}
@@ -859,6 +1034,7 @@ public initializeDogfight()
 		playerVehicle[i] = -1;
 		playerShowWarning[i] = 0;
 		playerCounter[i] = 0;
+		playerFiring[i] = 0;
 		playerTimer[i] = GetTickCount();
 		playerUnblurtimer[i] = playerTimer[i];
 		playerUnjamtimer[i] = playerTimer[i];
@@ -866,6 +1042,7 @@ public initializeDogfight()
 		playerShieldPickupTimer[i] = playerTimer[i];
 		playerSpeedBoostTimer[i] = playerTimer[i];
 		playerFuelWarning[i] = 0;
+		oldVehicleHealth[i] = 1000.0;
 	}
 	
 	nogoZoneId = GangZoneCreate(	FIGHTZONE_MIN_X - FIGHTZONE_MARGIN - FIGHTZONE_NO_GO_WIDTH,
@@ -1007,6 +1184,23 @@ public blurVisionExcludingPlayer(playerid)
 			GameTextForPlayer(i, msg, 3000, 3);
 		}
 	}
+}
+
+public refuelPlayerVehicle(playerid)
+{
+	new msg[64];
+	format(msg, sizeof(msg), "~r~Your vehicle is refuelled to ~g~100%%.", VISION_BLUR_DURATION / 1000);
+	GameTextForPlayer(playerid, msg, 3000, 3);
+	playerFuel[playerid] = 100.0;
+	playerFuelWarning[playerid] = 0;
+}
+
+public repairPlayerVehicle(playerid)
+{
+	new msg[64];
+	format(msg, sizeof(msg), "~r~Your vehicle is repaired to ~g~100%%.", VISION_BLUR_DURATION / 1000);
+	GameTextForPlayer(playerid, msg, 3000, 3);
+	RepairVehicle(playerVehicle[playerid]);
 }
 
 public jamRadarExcludingPlayer(playerid)

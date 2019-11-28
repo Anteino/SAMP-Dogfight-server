@@ -1306,6 +1306,8 @@
 			<referrer name="@yC_blur"/>
 			<referrer name="@yC_jam"/>
 			<referrer name="@yC_boost"/>
+			<referrer name="@yC_refuel"/>
+			<referrer name="@yC_repair"/>
 			<referrer name="@yC_joinfight"/>
 			<referrer name="@yC_leavefight"/>
 		</member>
@@ -1757,6 +1759,12 @@
 			<referrer name="SSCANF_OnPlayerConnect"/>
 			<referrer name="initializeDogfight"/>
 		</member>
+		<member name="F:oldVehicleHealth">
+			<tagname value="Float"/>
+			<referrer name="OnPlayerUpdate"/>
+			<referrer name="putPlayerInFight"/>
+			<referrer name="initializeDogfight"/>
+		</member>
 		<member name="F:opcode_table">
 			<tagname value="Opcode"/>
 			<referrer name="InitOpcodeTable"/>
@@ -1802,6 +1810,7 @@
 			<referrer name="OnPlayerUpdate"/>
 			<referrer name="OnPlayerKeyStateChange"/>
 			<referrer name="OnPlayerDeath"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="@_yCjoinfight"/>
 			<referrer name="@_yCleavefight"/>
 			<referrer name="putPlayerInFight"/>
@@ -1812,11 +1821,17 @@
 			<referrer name="blurVisionExcludingPlayer"/>
 			<referrer name="jamRadarExcludingPlayer"/>
 		</member>
+		<member name="F:playerFiring">
+			<referrer name="OnPlayerKeyStateChange"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<referrer name="initializeDogfight"/>
+		</member>
 		<member name="F:playerFuel">
 			<tagname value="Float"/>
 			<referrer name="OnPlayerUpdate"/>
 			<referrer name="@_yCjoinfight"/>
 			<referrer name="putPlayerInFight"/>
+			<referrer name="refuelPlayerVehicle"/>
 		</member>
 		<member name="F:playerFuelBar">
 			<tagname value="Bar"/>
@@ -1828,6 +1843,7 @@
 			<referrer name="OnPlayerUpdate"/>
 			<referrer name="putPlayerInFight"/>
 			<referrer name="initializeDogfight"/>
+			<referrer name="refuelPlayerVehicle"/>
 		</member>
 		<member name="F:playerHealth">
 			<tagname value="Float"/>
@@ -1873,11 +1889,13 @@
 			<referrer name="OnPlayerUpdate"/>
 			<referrer name="OnPlayerKeyStateChange"/>
 			<referrer name="OnPlayerDeath"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="@_yCjoinfight"/>
 			<referrer name="putPlayerInFight"/>
 			<referrer name="removePlayerFromFight"/>
 			<referrer name="initializeDogfight"/>
 			<referrer name="activatePlayerShield"/>
+			<referrer name="repairPlayerVehicle"/>
 		</member>
 		<member name="F:size_l">
 			<remarks>  <p>Because of the strange way we manipulate the stack, this function actually  gets called twice as often as you would expect.  Essentially, for this  (psudo-)loop:</p>  <code>  for (new i = iter_func(); Iter_YieldLoop(); )                              <br />  {                                                                          <br />  }  </code>  <p>The loop is entered and <c>iter_func()</c> is called.  This indirectly  calls <c>yield</c>, which returns to the call point of that function.  The  loop check is then entered and <c>Iter_YieldLoop()</c> is called.  Depending  on if <c>yield</c> was actually used, the main loop body is entered.  At the  end of that iteration, the loop check is run again and so  <c>Iter_YieldLoop()</c> is called again.</p>  <p>This is where it gets wierd!</p>  <p><c>Iter_YieldLoop()</c> does a stack copy and a jump in to the earlier  call to <c>iter_func</c>, whose return address is earlier in the code.  When  a <c>yield</c> is done again, that return is to the first part of the  <c>for</c> loop, which then instantly enters the loop check section and calls  <c>Iter_YieldLoop()</c> again (as a side-effect, saving the iterator value in  the loop variable).</p>  <p>So for <c>N</c> iterations of the loop, <c>Iter_YieldLoop()</c> is called  <c>2N + 1</c> times, and should be made aware of which phase of its calls it  is in.</p>  <p>This is, of course, made more complicated by nested loops, but that just  means we need to store the state on our own stack.</p>  </remarks> 
@@ -1946,6 +1964,7 @@
 			<tagname value="bool"/>
 			<stacksize value="4"/>
 			<referrer name="RandomFloat"/>
+			<referrer name="OnPlayerUpdate"/>
 			<dependency name="floatcmp"/>
 			<param name="oper1">
 				<paraminfo>Float </paraminfo>
@@ -2020,6 +2039,7 @@
 		<member name="M:operator*(Float:,_:)" syntax="operator*(Float:,_:)(oper1, oper2)">
 			<tagname value="Float"/>
 			<stacksize value="4"/>
+			<referrer name="GetVehicleRotation"/>
 			<dependency name="float"/>
 			<dependency name="floatmul"/>
 			<param name="oper1">
@@ -2040,6 +2060,7 @@
 			<tagname value="Float"/>
 			<stacksize value="1"/>
 			<referrer name="RandomFloat"/>
+			<referrer name="GetVehicleRotation"/>
 			<referrer name="createPickupSphere"/>
 			<dependency name="cellmin"/>
 			<param name="oper">
@@ -2062,6 +2083,8 @@
 			<referrer name="CreateProgressBar"/>
 			<referrer name="SetProgressBarValue"/>
 			<referrer name="OnPlayerUpdate"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<referrer name="GetVehicleRotation"/>
 			<referrer name="putPlayerInFight"/>
 			<referrer name="initializeDogfight"/>
 			<referrer name="createPickupSphere"/>
@@ -2081,6 +2104,8 @@
 			<referrer name="SetProgressBarValue"/>
 			<referrer name="OnPlayerUpdate"/>
 			<referrer name="OnPlayerKeyStateChange"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<referrer name="GetVehicleRotation"/>
 			<referrer name="putPlayerInFight"/>
 			<referrer name="respawnPlayer"/>
 			<referrer name="initializeDogfight"/>
@@ -2100,6 +2125,7 @@
 			<referrer name="CreateProgressBar"/>
 			<referrer name="SetProgressBarValue"/>
 			<referrer name="OnPlayerUpdate"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="putPlayerInFight"/>
 			<referrer name="createPickupSphere"/>
 			<param name="oper1">
@@ -2117,6 +2143,8 @@
 			<referrer name="SetProgressBarValue"/>
 			<referrer name="OnPlayerUpdate"/>
 			<referrer name="OnPlayerKeyStateChange"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<referrer name="GetVehicleRotation"/>
 			<referrer name="putPlayerInFight"/>
 			<referrer name="createPickupSphere"/>
 			<param name="oper1">
@@ -2159,6 +2187,7 @@
 			<tagname value="bool"/>
 			<stacksize value="4"/>
 			<referrer name="SetProgressBarValue"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<dependency name="floatcmp"/>
 			<param name="oper1">
 				<paraminfo>Float </paraminfo>
@@ -2264,6 +2293,7 @@
 			<tagname value="bool"/>
 			<stacksize value="4"/>
 			<referrer name="OnPlayerUpdate"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="isPlayerInSquare"/>
 			<referrer name="createPickupSphere"/>
 			<dependency name="floatcmp"/>
@@ -2337,7 +2367,7 @@
 			<dependency name="_YCM_g@_"/>
 			<dependency name="getproperty"/>
 			<dependency name="setproperty"/>
-			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="x¢[" source="_ALS_go"/>
+			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="Šq" source="_ALS_go"/>
 
 		</member>
 		<member name="M:@_OnScriptInit" syntax="@_OnScriptInit()">
@@ -2347,10 +2377,11 @@
 		</member>
 		<member name="M:@_yCblur" syntax="@_yCblur(playerid, params[], help)">
 			<attribute name="public"/>
-			<stacksize value="4"/>
+			<stacksize value="6"/>
 			<referrer name="@yC_blur"/>
 			<dependency name="IsPlayerAdmin"/>
 			<dependency name="blurVisionExcludingPlayer"/>
+			<dependency name="sscanf"/>
 			<param name="playerid">
 			</param>
 			<param name="params">
@@ -2361,10 +2392,11 @@
 		</member>
 		<member name="M:@_yCboost" syntax="@_yCboost(playerid, params[], help)">
 			<attribute name="public"/>
-			<stacksize value="4"/>
+			<stacksize value="6"/>
 			<referrer name="@yC_boost"/>
 			<dependency name="IsPlayerAdmin"/>
 			<dependency name="activateSpeedBoost"/>
+			<dependency name="sscanf"/>
 			<param name="playerid">
 			</param>
 			<param name="params">
@@ -2391,10 +2423,11 @@
 		</member>
 		<member name="M:@_yCjam" syntax="@_yCjam(playerid, params[], help)">
 			<attribute name="public"/>
-			<stacksize value="4"/>
+			<stacksize value="6"/>
 			<referrer name="@yC_jam"/>
 			<dependency name="IsPlayerAdmin"/>
 			<dependency name="jamRadarExcludingPlayer"/>
+			<dependency name="sscanf"/>
 			<param name="playerid">
 			</param>
 			<param name="params">
@@ -2457,6 +2490,36 @@
 			<dependency name="SendClientMessage"/>
 			<dependency name="playerFighting"/>
 			<dependency name="removePlayerFromFight"/>
+			<param name="playerid">
+			</param>
+			<param name="params">
+				<paraminfo> [] </paraminfo>
+			</param>
+			<param name="help">
+			</param>
+		</member>
+		<member name="M:@_yCrefuel" syntax="@_yCrefuel(playerid, params[], help)">
+			<attribute name="public"/>
+			<stacksize value="6"/>
+			<referrer name="@yC_refuel"/>
+			<dependency name="IsPlayerAdmin"/>
+			<dependency name="refuelPlayerVehicle"/>
+			<dependency name="sscanf"/>
+			<param name="playerid">
+			</param>
+			<param name="params">
+				<paraminfo> [] </paraminfo>
+			</param>
+			<param name="help">
+			</param>
+		</member>
+		<member name="M:@_yCrepair" syntax="@_yCrepair(playerid, params[], help)">
+			<attribute name="public"/>
+			<stacksize value="6"/>
+			<referrer name="@yC_repair"/>
+			<dependency name="IsPlayerAdmin"/>
+			<dependency name="repairPlayerVehicle"/>
+			<dependency name="sscanf"/>
 			<param name="playerid">
 			</param>
 			<param name="params">
@@ -2594,7 +2657,7 @@
 			<dependency name="_YCM_g@a"/>
 			<dependency name="getproperty"/>
 			<dependency name="setproperty"/>
-			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="" source="_ALS_go"/>
+			<transition keep="true" target="_YCM : m" source="_YCM : y" />  <transition keep="true" target="_YCM : p" source="_YCM : y" />  <transition keep="true" target="_YCM : n" source="_YCM : y" />  <transition keep="true" target="_YCM : y" source="_YCM : u" /> <p/> <transition target="€Ÿu" source="_ALS_go"/>
 
 		</member>
 		<member name="M:@receivepacket" syntax="@receivepacket(packet[], size, source[])">
@@ -2719,6 +2782,38 @@
 			<attribute name="public"/>
 			<stacksize value="8"/>
 			<dependency name="@_yCleavefight"/>
+			<dependency name="U@"/>
+			<dependency name="_@"/>
+			<param name="a">
+			</param>
+			<param name="b">
+				<paraminfo> [] </paraminfo>
+			</param>
+			<param name="c">
+			</param>
+			<param name="i">
+			</param>
+		</member>
+		<member name="M:@yC_refuel" syntax="@yC_refuel(a, b[], c, i)">
+			<attribute name="public"/>
+			<stacksize value="8"/>
+			<dependency name="@_yCrefuel"/>
+			<dependency name="U@"/>
+			<dependency name="_@"/>
+			<param name="a">
+			</param>
+			<param name="b">
+				<paraminfo> [] </paraminfo>
+			</param>
+			<param name="c">
+			</param>
+			<param name="i">
+			</param>
+		</member>
+		<member name="M:@yC_repair" syntax="@yC_repair(a, b[], c, i)">
+			<attribute name="public"/>
+			<stacksize value="8"/>
+			<dependency name="@_yCrepair"/>
 			<dependency name="U@"/>
 			<dependency name="_@"/>
 			<param name="a">
@@ -7840,12 +7935,12 @@
 		</member>
 		<member name="M:Debug_Disable" syntax="Debug_Disable()">
 			<stacksize value="1"/>
-			<remarks>  Turn off level 0 prints.  </remarks>  <transition target="`“Rí"/>
+			<remarks>  Turn off level 0 prints.  </remarks>  <transition target=""/>
 
 		</member>
 		<member name="M:Debug_Enable" syntax="Debug_Enable()">
 			<stacksize value="1"/>
-			<remarks>  Turn on level 0 prints.  </remarks>  <transition target="p’Râ"/>
+			<remarks>  Turn on level 0 prints.  </remarks>  <transition target="ˆ˜hâ"/>
 
 		</member>
 		<member name="M:Debug_Level" syntax="Debug_Level(level)">
@@ -7928,7 +8023,7 @@
 			<stacksize value="1"/>
 			<automaton name="ysi_debug"/>
 			<referrer name="YVers_OnScriptInit"/>
-			<transition keep="true" target="ysi_debug : on" source="ysi_debug : "/>  <remarks>  Mostly exists to define the full range of <c>ysi_debug</c> states.  </remarks> <p/> <transition target="Ø“R×"/>
+			<transition keep="true" target="ysi_debug : on" source="ysi_debug : "/>  <remarks>  Mostly exists to define the full range of <c>ysi_debug</c> states.  </remarks> <p/> <transition target="(h×"/>
 
 		</member>
 		<member name="M:DestroyActor" syntax="DestroyActor(actorid)">
@@ -8394,6 +8489,8 @@
 			<referrer name="activatePlayerShield"/>
 			<referrer name="activateSpeedBoost"/>
 			<referrer name="blurVisionExcludingPlayer"/>
+			<referrer name="refuelPlayerVehicle"/>
+			<referrer name="repairPlayerVehicle"/>
 			<referrer name="jamRadarExcludingPlayer"/>
 			<param name="playerid">
 			</param>
@@ -9078,6 +9175,7 @@
 		<member name="M:GetPlayerPos" syntax="GetPlayerPos(playerid, &amp;x, &amp;y, &amp;z)">
 			<attribute name="native"/>
 			<referrer name="OnPlayerUpdate"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="@_yCjetpack"/>
 			<referrer name="isPlayerInSquare"/>
 			<param name="playerid">
@@ -9090,6 +9188,12 @@
 			</param>
 			<param name="z">
 				<paraminfo>Float &amp; </paraminfo>
+			</param>
+		</member>
+		<member name="M:GetPlayerScore" syntax="GetPlayerScore(playerid)">
+			<attribute name="native"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<param name="playerid">
 			</param>
 		</member>
 		<member name="M:GetPlayerVehicleID" syntax="GetPlayerVehicleID(playerid)">
@@ -9506,6 +9610,47 @@
 			<referrer name="OnPlayerUpdate"/>
 			<referrer name="OnPlayerKeyStateChange"/>
 			<param name="vehicleid">
+			</param>
+			<param name="x">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+			<param name="y">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+			<param name="z">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+		</member>
+		<member name="M:GetVehicleRotation" syntax="GetVehicleRotation(vehicleid, &amp;rx, &amp;ry, &amp;rz)">
+			<stacksize value="11"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<dependency name="operator*(Float:,_:)"/>
+			<dependency name="operator-(Float:)"/>
+			<dependency name="operator-(Float:,Float:)"/>
+			<dependency name="operator+(Float:,Float:)"/>
+			<dependency name="operator*(Float:,Float:)"/>
+			<dependency name="GetVehicleRotationQuat"/>
+			<dependency name="asin"/>
+			<dependency name="atan2"/>
+			<param name="vehicleid">
+			</param>
+			<param name="rx">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+			<param name="ry">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+			<param name="rz">
+				<paraminfo>Float &amp; </paraminfo>
+			</param>
+		</member>
+		<member name="M:GetVehicleRotationQuat" syntax="GetVehicleRotationQuat(vehicleid, &amp;w, &amp;x, &amp;y, &amp;z)">
+			<attribute name="native"/>
+			<referrer name="GetVehicleRotation"/>
+			<param name="vehicleid">
+			</param>
+			<param name="w">
+				<paraminfo>Float &amp; </paraminfo>
 			</param>
 			<param name="x">
 				<paraminfo>Float &amp; </paraminfo>
@@ -10113,7 +10258,7 @@
 			<dependency name="existproperty"/>
 			<dependency name="getproperty"/>
 			<dependency name="setproperty"/>
-			<returns>  OnScriptInit  </returns>  <remarks>  Constructor.  Gets the script a master ID.  Now ALWAYS gets an ID, even if  the master system is disabled - doing otherwise is just too complicated.  </remarks>  <transition keep="true" target="_ALS : _ALS_go" />  <transition target="™[" source="_ALS_go"/>
+			<returns>  OnScriptInit  </returns>  <remarks>  Constructor.  Gets the script a master ID.  Now ALWAYS gets an ID, even if  the master system is disabled - doing otherwise is just too complicated.  </remarks>  <transition keep="true" target="_ALS : _ALS_go" />  <transition target="Àxq" source="_ALS_go"/>
 
 		</member>
 		<member name="M:HookNative" syntax="HookNative(index, address)">
@@ -10644,6 +10789,8 @@
 			<referrer name="@_yCblur"/>
 			<referrer name="@_yCjam"/>
 			<referrer name="@_yCboost"/>
+			<referrer name="@_yCrefuel"/>
+			<referrer name="@_yCrepair"/>
 			<param name="playerid">
 			</param>
 		</member>
@@ -12174,6 +12321,7 @@
 			<dependency name="SetVehiclePos"/>
 			<dependency name="SetVehicleVelocity"/>
 			<dependency name="playerFighting"/>
+			<dependency name="playerFiring"/>
 			<dependency name="playerHeightPickupTimer"/>
 			<dependency name="playerSpeedBoostTimer"/>
 			<dependency name="playerVehicle"/>
@@ -12318,6 +12466,7 @@
 		<member name="M:OnPlayerUpdate" syntax="OnPlayerUpdate(playerid)">
 			<attribute name="public"/>
 			<stacksize value="19"/>
+			<dependency name="operator!=(Float:,Float:)"/>
 			<dependency name="operator-(Float:,_:)"/>
 			<dependency name="operator+(Float:,_:)"/>
 			<dependency name="operator-(Float:,Float:)"/>
@@ -12339,7 +12488,6 @@
 			<dependency name="IsPlayerInAnyVehicle"/>
 			<dependency name="IsPlayerNPC"/>
 			<dependency name="PICKUP_LOCATIONS"/>
-			<dependency name="RepairVehicle"/>
 			<dependency name="SendClientMessage"/>
 			<dependency name="SetPlayerHealth"/>
 			<dependency name="SetPlayerMarkerForPlayer"/>
@@ -12360,6 +12508,8 @@
 			<dependency name="jamRadarExcludingPlayer"/>
 			<dependency name="livePickups"/>
 			<dependency name="minHealth"/>
+			<dependency name="oldVehicleHealth"/>
+			<dependency name="onVehicleHealthUpdate"/>
 			<dependency name="pickups"/>
 			<dependency name="pickups"/>
 			<dependency name="playerBar"/>
@@ -12374,8 +12524,10 @@
 			<dependency name="playerUnblurtimer"/>
 			<dependency name="playerUnjamtimer"/>
 			<dependency name="playerVehicle"/>
+			<dependency name="refuelPlayerVehicle"/>
 			<dependency name="removeDogfightMapIcons"/>
 			<dependency name="removePlayerFromFight"/>
+			<dependency name="repairPlayerVehicle"/>
 			<dependency name="respawnPlayer"/>
 			<dependency name="setDogfightMapIcons"/>
 			<param name="playerid">
@@ -13147,7 +13299,7 @@
 		</member>
 		<member name="M:RepairVehicle" syntax="RepairVehicle(vehicleid)">
 			<attribute name="native"/>
-			<referrer name="OnPlayerUpdate"/>
+			<referrer name="repairPlayerVehicle"/>
 			<param name="vehicleid">
 			</param>
 		</member>
@@ -13613,6 +13765,14 @@
 			</param>
 			<param name="z">
 				<paraminfo>Float </paraminfo>
+			</param>
+		</member>
+		<member name="M:SetPlayerScore" syntax="SetPlayerScore(playerid, score)">
+			<attribute name="native"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<param name="playerid">
+			</param>
+			<param name="score">
 			</param>
 		</member>
 		<member name="M:SetPlayerWeather" syntax="SetPlayerWeather(playerid, weather)">
@@ -14155,6 +14315,8 @@
 			<referrer name="@yC_blur"/>
 			<referrer name="@yC_jam"/>
 			<referrer name="@yC_boost"/>
+			<referrer name="@yC_refuel"/>
+			<referrer name="@yC_repair"/>
 			<referrer name="@yC_joinfight"/>
 			<referrer name="@yC_leavefight"/>
 			<param name="id">
@@ -14251,7 +14413,7 @@
 			<dependency name="Hooks_DoAllHooks"/>
 			<dependency name="Hooks_InvalidateName"/>
 			<dependency name="Hooks_SortReplacements"/>
-			<remarks>  Call the main hook run code, then advance the ALS chain.  </remarks>  <transition keep="true" target="_ALS : _ALS_go"/>  <transition target="°—[i"/>
+			<remarks>  Call the main hook run code, then advance the ALS chain.  </remarks>  <transition keep="true" target="_ALS : _ALS_go"/>  <transition target="{qi"/>
 
 		</member>
 		<member name="M:W@" syntax="W@(function[], format[], ...)">
@@ -15863,9 +16025,18 @@
 			<param name="n">
 			</param>
 		</member>
+		<member name="M:asin" syntax="asin(value)">
+			<tagname value="Float"/>
+			<attribute name="native"/>
+			<referrer name="GetVehicleRotation"/>
+			<param name="value">
+				<paraminfo>Float </paraminfo>
+			</param>
+		</member>
 		<member name="M:atan2" syntax="atan2(x, y)">
 			<tagname value="Float"/>
 			<attribute name="native"/>
+			<referrer name="GetVehicleRotation"/>
 			<referrer name="putPlayerInFight"/>
 			<param name="x">
 				<paraminfo>Float </paraminfo>
@@ -16177,6 +16348,14 @@
 			<param name="value">
 			</param>
 		</member>
+		<member name="M:floatabs" syntax="floatabs(value)">
+			<tagname value="Float"/>
+			<attribute name="native"/>
+			<referrer name="onVehicleHealthUpdate"/>
+			<param name="value">
+				<paraminfo>Float </paraminfo>
+			</param>
+		</member>
 		<member name="M:floatadd" syntax="floatadd(oper1, oper2)">
 			<tagname value="Float"/>
 			<attribute name="native"/>
@@ -16216,6 +16395,7 @@
 		<member name="M:floatcos" syntax="floatcos(value, mode)">
 			<tagname value="Float"/>
 			<attribute name="native"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="createPickupSphere"/>
 			<param name="value">
 				<paraminfo>Float </paraminfo>
@@ -16252,6 +16432,7 @@
 			<attribute name="native"/>
 			<referrer name="RandomFloat"/>
 			<referrer name="OnPlayerUpdate"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<param name="value">
 				<paraminfo>Float </paraminfo>
 			</param>
@@ -16262,6 +16443,7 @@
 		<member name="M:floatround" syntax="floatround(value, method)">
 			<attribute name="native"/>
 			<referrer name="RandomFloat"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<param name="value">
 				<paraminfo>Float </paraminfo>
 			</param>
@@ -16272,6 +16454,7 @@
 		<member name="M:floatsin" syntax="floatsin(value, mode)">
 			<tagname value="Float"/>
 			<attribute name="native"/>
+			<referrer name="onVehicleHealthUpdate"/>
 			<referrer name="createPickupSphere"/>
 			<param name="value">
 				<paraminfo>Float </paraminfo>
@@ -16330,6 +16513,8 @@
 			<referrer name="activatePlayerShield"/>
 			<referrer name="activateSpeedBoost"/>
 			<referrer name="blurVisionExcludingPlayer"/>
+			<referrer name="refuelPlayerVehicle"/>
+			<referrer name="repairPlayerVehicle"/>
 			<referrer name="jamRadarExcludingPlayer"/>
 			<param name="output">
 				<paraminfo> [] </paraminfo>
@@ -16457,10 +16642,12 @@
 			<dependency name="marginZoneId"/>
 			<dependency name="minHealth"/>
 			<dependency name="nogoZoneId"/>
+			<dependency name="oldVehicleHealth"/>
 			<dependency name="pickupBaseIAT"/>
 			<dependency name="pickupIAT"/>
 			<dependency name="playerCounter"/>
 			<dependency name="playerFighting"/>
+			<dependency name="playerFiring"/>
 			<dependency name="playerFuelWarning"/>
 			<dependency name="playerHeightPickupTimer"/>
 			<dependency name="playerShieldPickupTimer"/>
@@ -16639,6 +16826,35 @@
 			<referrer name="AsmEmitInstruction"/>
 			<referrer name="CodeScanMatcherPattern_"/>
 		</member>
+		<member name="M:onVehicleHealthUpdate" syntax="onVehicleHealthUpdate(playerid, amount)">
+			<attribute name="public"/>
+			<stacksize value="2019"/>
+			<referrer name="OnPlayerUpdate"/>
+			<dependency name="operator-(Float:,Float:)"/>
+			<dependency name="operator+(Float:,Float:)"/>
+			<dependency name="operator/(Float:,Float:)"/>
+			<dependency name="operator*(Float:,Float:)"/>
+			<dependency name="operator&gt;(Float:,Float:)"/>
+			<dependency name="operator&lt;=(Float:,Float:)"/>
+			<dependency name="GetPlayerPos"/>
+			<dependency name="GetPlayerScore"/>
+			<dependency name="GetVehicleRotation"/>
+			<dependency name="SetPlayerScore"/>
+			<dependency name="degrees"/>
+			<dependency name="floatabs"/>
+			<dependency name="floatcos"/>
+			<dependency name="floatpower"/>
+			<dependency name="floatround"/>
+			<dependency name="floatsin"/>
+			<dependency name="playerFighting"/>
+			<dependency name="playerFiring"/>
+			<dependency name="playerVehicle"/>
+			<param name="playerid">
+			</param>
+			<param name="amount">
+				<paraminfo>Float </paraminfo>
+			</param>
+		</member>
 		<member name="M:print" syntax="print(string[])">
 			<attribute name="native"/>
 			<referrer name="ScriptInit_OnScriptInit"/>
@@ -16688,6 +16904,7 @@
 			<dependency name="SetCameraBehindPlayer"/>
 			<dependency name="atan2"/>
 			<dependency name="float"/>
+			<dependency name="oldVehicleHealth"/>
 			<dependency name="playerFighting"/>
 			<dependency name="playerFuel"/>
 			<dependency name="playerFuelWarning"/>
@@ -16788,6 +17005,18 @@
 			<param name="...">
 			</param>
 		</member>
+		<member name="M:refuelPlayerVehicle" syntax="refuelPlayerVehicle(playerid)">
+			<attribute name="public"/>
+			<stacksize value="71"/>
+			<referrer name="OnPlayerUpdate"/>
+			<referrer name="@_yCrefuel"/>
+			<dependency name="GameTextForPlayer"/>
+			<dependency name="format"/>
+			<dependency name="playerFuel"/>
+			<dependency name="playerFuelWarning"/>
+			<param name="playerid">
+			</param>
+		</member>
 		<member name="M:removeDogfightMapIcons" syntax="removeDogfightMapIcons(playerid)">
 			<attribute name="public"/>
 			<stacksize value="5"/>
@@ -16812,6 +17041,18 @@
 			<dependency name="playerFuelBar"/>
 			<dependency name="playerVehicle"/>
 			<dependency name="respawnPlayer"/>
+			<param name="playerid">
+			</param>
+		</member>
+		<member name="M:repairPlayerVehicle" syntax="repairPlayerVehicle(playerid)">
+			<attribute name="public"/>
+			<stacksize value="71"/>
+			<referrer name="OnPlayerUpdate"/>
+			<referrer name="@_yCrepair"/>
+			<dependency name="GameTextForPlayer"/>
+			<dependency name="RepairVehicle"/>
+			<dependency name="format"/>
+			<dependency name="playerVehicle"/>
 			<param name="playerid">
 			</param>
 		</member>
@@ -16904,6 +17145,11 @@
 			<referrer name="@_yCgotopickup"/>
 			<referrer name="@_yCsetweather"/>
 			<referrer name="@_yCsetvehicle"/>
+			<referrer name="@_yCblur"/>
+			<referrer name="@_yCjam"/>
+			<referrer name="@_yCboost"/>
+			<referrer name="@_yCrefuel"/>
+			<referrer name="@_yCrepair"/>
 			<referrer name="@_yCjoinfight"/>
 			<param name="data">
 				<paraminfo> [] </paraminfo>
